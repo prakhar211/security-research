@@ -1,0 +1,319 @@
+// MITRE ATT&CK badge
+.mitre-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-1;
+  padding: 4px 10px;
+  margin: 0 $space-1 $space-1 0;
+  font-family: $font-heading;
+  font-size: 0.8rem;
+  color: $accent-teal;
+  background: rgba($accent-teal, 0.08);
+  border: 1px solid rgba($accent-teal, 0.4);
+  border-radius: $border-radius;
+  text-decoration: none;
+  transition: all 0.15s ease;
+
+  &:hover {
+    background: rgba($accent-teal, 0.16);
+    border-color: $accent-teal;
+    color: $accent-teal;
+    text-decoration: none;
+  }
+
+  .mitre-id {
+    font-weight: 700;
+  }
+
+  .mitre-sep {
+    color: $text-tertiary;
+  }
+}
+
+.mitre-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-1;
+  margin: $space-4 0;
+}
+
+// Severity / confidence pills
+.pill {
+  display: inline-block;
+  padding: 2px 8px;
+  font-family: $font-heading;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: $border-radius;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  &--critical { color: $accent-red;   background: rgba($accent-red,   0.12); border: 1px solid rgba($accent-red,   0.4); }
+  &--high     { color: $accent-amber; background: rgba($accent-amber, 0.12); border: 1px solid rgba($accent-amber, 0.4); }
+  &--medium   { color: $accent-cyan;  background: rgba($accent-cyan,  0.12); border: 1px solid rgba($accent-cyan,  0.4); }
+  &--low      { color: $accent-green; background: rgba($accent-green, 0.12); border: 1px solid rgba($accent-green, 0.4); }
+  &--info     { color: $text-secondary; background: $bg-tertiary; border: 1px solid $border; }
+}
+
+// Callout boxes
+.callout {
+  display: flex;
+  gap: $space-4;
+  padding: $space-4;
+  margin: $space-6 0;
+  border-radius: $border-radius;
+  border: 1px solid $border;
+  background: $bg-secondary;
+  border-left-width: 3px;
+
+  .callout-icon {
+    flex-shrink: 0;
+    font-family: $font-heading;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .callout-body {
+    flex: 1;
+
+    .callout-title {
+      font-family: $font-heading;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+      margin-bottom: $space-1;
+    }
+
+    p:last-child { margin-bottom: 0; }
+  }
+
+  &--info    { border-left-color: $accent-teal;  .callout-icon, .callout-title { color: $accent-teal;  } }
+  &--warning { border-left-color: $accent-amber; .callout-icon, .callout-title { color: $accent-amber; } }
+  &--danger  { border-left-color: $accent-red;   .callout-icon, .callout-title { color: $accent-red;   } }
+  &--tip     { border-left-color: $accent-green; .callout-icon, .callout-title { color: $accent-green; } }
+}
+
+// IOC table
+.ioc-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: $font-code;
+  font-size: 0.85rem;
+  margin: $space-4 0;
+  background: $bg-secondary;
+  border: 1px solid $border;
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  th, td {
+    padding: $space-2 $space-3;
+    text-align: left;
+    border-bottom: 1px solid $border;
+    vertical-align: top;
+  }
+
+  th {
+    background: $bg-tertiary;
+    font-family: $font-heading;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: $text-secondary;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover { color: $accent-teal; }
+    &::after { content: " ⇅"; opacity: 0.4; font-size: 0.8em; }
+  }
+
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: $bg-tertiary; }
+
+  .ioc-type {
+    font-family: $font-heading;
+    font-size: 0.75rem;
+    color: $accent-teal;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .ioc-value {
+    color: $text-primary;
+    word-break: break-all;
+  }
+
+  .ioc-copy {
+    background: none;
+    border: 1px solid $border;
+    color: $text-secondary;
+    font-family: $font-heading;
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+
+    &:hover {
+      color: $accent-teal;
+      border-color: $accent-teal;
+    }
+
+    &.copied { color: $accent-green; border-color: $accent-green; }
+  }
+}
+
+// Table of contents
+.toc {
+  padding: $space-4;
+  margin: $space-6 0;
+  background: $bg-secondary;
+  border: 1px solid $border;
+  border-radius: $border-radius;
+  font-size: 0.9rem;
+
+  .toc-title {
+    font-family: $font-heading;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: $text-secondary;
+    margin: 0 0 $space-2;
+
+    &::before { content: "// "; color: $accent-teal; }
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  ul ul {
+    padding-left: $space-4;
+    margin-top: $space-1;
+  }
+
+  li { margin: $space-1 0; }
+
+  a {
+    color: $text-secondary;
+    &:hover { color: $accent-teal; }
+  }
+}
+
+// Detection card
+.detection-card {
+  background: $bg-secondary;
+  border: 1px solid $border;
+  border-radius: $border-radius;
+  padding: $space-6;
+  margin: $space-4 0;
+
+  .detection-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: $space-4;
+    margin-bottom: $space-4;
+    flex-wrap: wrap;
+
+    h3 { margin: 0; font-size: 1.1rem; }
+    .detection-id {
+      font-family: $font-heading;
+      font-size: 0.8rem;
+      color: $accent-teal;
+    }
+  }
+
+  .detection-meta {
+    display: flex;
+    gap: $space-2;
+    flex-wrap: wrap;
+    margin-bottom: $space-3;
+  }
+
+  .detection-desc {
+    color: $text-secondary;
+    font-size: 0.95rem;
+    margin: 0;
+  }
+}
+
+// 404 page
+.fourohfour {
+  text-align: center;
+  padding: $space-16 $space-4;
+
+  h1 {
+    font-size: 4rem;
+    font-family: $font-heading;
+    color: $accent-red;
+    margin: 0;
+    &::before { content: ""; }
+  }
+
+  p { color: $text-secondary; font-size: 1.05rem; }
+
+  .fourohfour-tagline {
+    font-family: $font-heading;
+    font-size: 1rem;
+    color: $text-primary;
+    margin: $space-6 0 $space-8;
+    padding: $space-4;
+    background: $bg-secondary;
+    border-left: 3px solid $accent-teal;
+    border-radius: 0 $border-radius $border-radius 0;
+    text-align: left;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    &::before { content: "> "; color: $accent-teal; }
+  }
+}
+
+// Detection rule layout
+.detection-rule {
+  max-width: $max-content-width;
+  margin: 0 auto;
+
+  .detection-rule-header {
+    margin-bottom: $space-6;
+    padding-bottom: $space-4;
+    border-bottom: 1px solid $border;
+
+    .detection-id-label {
+      font-family: $font-heading;
+      font-size: 0.75rem;
+      color: $accent-teal;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    h1 { margin: $space-2 0 $space-4; }
+
+    .detection-attrs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: $space-3;
+      margin-top: $space-4;
+
+      .attr {
+        .attr-label {
+          font-family: $font-heading;
+          font-size: 0.7rem;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+          color: $text-tertiary;
+          margin-bottom: 2px;
+        }
+        .attr-value {
+          font-size: 0.9rem;
+          color: $text-primary;
+        }
+      }
+    }
+  }
+}

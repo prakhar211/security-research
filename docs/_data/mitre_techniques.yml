@@ -1,0 +1,45 @@
+# MITRE ATT&CK technique lookup — extend as needed.
+# Keyed by technique ID; used by includes/templates that need friendly names.
+
+T1566:
+  name: "Phishing"
+  url: "https://attack.mitre.org/techniques/T1566/"
+T1566.001:
+  name: "Spearphishing Attachment"
+  url: "https://attack.mitre.org/techniques/T1566/001/"
+T1566.002:
+  name: "Spearphishing Link"
+  url: "https://attack.mitre.org/techniques/T1566/002/"
+T1557:
+  name: "Adversary-in-the-Middle"
+  url: "https://attack.mitre.org/techniques/T1557/"
+T1557.001:
+  name: "LLMNR/NBT-NS Poisoning and SMB Relay"
+  url: "https://attack.mitre.org/techniques/T1557/001/"
+T1078:
+  name: "Valid Accounts"
+  url: "https://attack.mitre.org/techniques/T1078/"
+T1078.004:
+  name: "Cloud Accounts"
+  url: "https://attack.mitre.org/techniques/T1078/004/"
+T1539:
+  name: "Steal Web Session Cookie"
+  url: "https://attack.mitre.org/techniques/T1539/"
+T1110:
+  name: "Brute Force"
+  url: "https://attack.mitre.org/techniques/T1110/"
+T1110.003:
+  name: "Password Spraying"
+  url: "https://attack.mitre.org/techniques/T1110/003/"
+T1195:
+  name: "Supply Chain Compromise"
+  url: "https://attack.mitre.org/techniques/T1195/"
+T1195.002:
+  name: "Compromise Software Supply Chain"
+  url: "https://attack.mitre.org/techniques/T1195/002/"
+T1098:
+  name: "Account Manipulation"
+  url: "https://attack.mitre.org/techniques/T1098/"
+T1098.005:
+  name: "Device Registration"
+  url: "https://attack.mitre.org/techniques/T1098/005/"

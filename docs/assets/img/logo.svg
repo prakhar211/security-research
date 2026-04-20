@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Security Research logo">
+  <rect width="64" height="64" rx="8" fill="#0d1117"/>
+  <g fill="none" stroke="#3ecdc6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 8 L52 16 V32 C52 44 42 54 32 56 C22 54 12 44 12 32 V16 Z"/>
+    <path d="M24 32 L30 38 L42 26"/>
+  </g>
+</svg>

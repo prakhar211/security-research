@@ -1,0 +1,3 @@
+# TruffleHog exclusions — IOC directory contains intentional indicator values
+# that can look like secrets (domains, URLs, hashes).
+iocs/

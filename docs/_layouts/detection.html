@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<article class="detection-rule">
+  <header class="detection-rule-header">
+    <div class="detection-id-label">{{ page.id | default: "Detection Rule" }}</div>
+    <h1>{{ page.name | default: page.title }}</h1>
+    <p>{{ page.description }}</p>
+
+    <div class="detection-attrs">
+      {%- if page.platform -%}<div class="attr"><div class="attr-label">Platform</div><div class="attr-value">{{ page.platform }}</div></div>{%- endif -%}
+      {%- if page.severity -%}<div class="attr"><div class="attr-label">Severity</div><div class="attr-value"><span class="pill pill--{{ page.severity }}">{{ page.severity }}</span></div></div>{%- endif -%}
+      {%- if page.confidence -%}<div class="attr"><div class="attr-label">Confidence</div><div class="attr-value"><span class="pill pill--{{ page.confidence }}">{{ page.confidence }}</span></div></div>{%- endif -%}
+      {%- if page.author -%}<div class="attr"><div class="attr-label">Author</div><div class="attr-value">{{ page.author }}</div></div>{%- endif -%}
+      {%- if page.created -%}<div class="attr"><div class="attr-label">Created</div><div class="attr-value">{{ page.created }}</div></div>{%- endif -%}
+      {%- if page.modified -%}<div class="attr"><div class="attr-label">Modified</div><div class="attr-value">{{ page.modified }}</div></div>{%- endif -%}
+    </div>
+
+    {%- if page.mitre_attack and page.mitre_attack.size > 0 -%}
+      <div class="mitre-badges" style="margin-top: 1.5rem;">
+        {%- for t in page.mitre_attack -%}
+          {%- include mitre-badge.html id=t.technique name=t.tactic -%}
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  </header>
+
+  <div class="post-content">
+    {%- if page.data_sources and page.data_sources.size > 0 -%}
+      <h2>Data Sources</h2>
+      <ul>
+        {%- for ds in page.data_sources -%}<li>{{ ds }}</li>{%- endfor -%}
+      </ul>
+    {%- endif -%}
+
+    {%- if page.query -%}
+      <h2>Query</h2>
+      <pre><code class="language-{{ page.platform }}">{{ page.query }}</code></pre>
+    {%- endif -%}
+
+    {%- if page.false_positives and page.false_positives.size > 0 -%}
+      <h2>Known False Positives</h2>
+      <ul>
+        {%- for fp in page.false_positives -%}<li>{{ fp }}</li>{%- endfor -%}
+      </ul>
+    {%- endif -%}
+
+    {%- if page.tuning_notes -%}
+      <h2>Tuning Notes</h2>
+      <p>{{ page.tuning_notes }}</p>
+    {%- endif -%}
+
+    {{ content }}
+
+    {%- if page.references and page.references.size > 0 -%}
+      <h2>References</h2>
+      <ul>
+        {%- for ref in page.references -%}<li><a href="{{ ref }}" target="_blank" rel="noopener">{{ ref }}</a></li>{%- endfor -%}
+      </ul>
+    {%- endif -%}
+  </div>
+</article>

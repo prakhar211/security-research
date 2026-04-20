@@ -1,0 +1,357 @@
+.container {
+  width: 100%;
+  max-width: $max-page-width;
+  margin: 0 auto;
+  padding: 0 $space-6;
+}
+
+.container--narrow {
+  max-width: $max-content-width;
+}
+
+// Site header / nav
+.site-header {
+  border-bottom: 1px solid $border;
+  background: rgba($bg-primary, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $space-4 0;
+  gap: $space-6;
+  flex-wrap: wrap;
+}
+
+.site-brand {
+  font-family: $font-heading;
+  font-weight: 700;
+  font-size: 1rem;
+  color: $text-primary;
+  letter-spacing: -0.01em;
+  display: inline-flex;
+  align-items: center;
+  gap: $space-2;
+
+  &:hover { color: $accent-teal; text-decoration: none; }
+
+  &::before {
+    content: "▶";
+    color: $accent-teal;
+    font-size: 0.85em;
+  }
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: $space-6;
+  flex-wrap: wrap;
+
+  a {
+    color: $text-secondary;
+    font-family: $font-heading;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.15s ease;
+
+    &:hover, &.active {
+      color: $accent-teal;
+      text-decoration: none;
+    }
+  }
+}
+
+// Main content
+.site-main {
+  flex: 1;
+  padding: $space-8 0 $space-16;
+}
+
+// Footer
+.site-footer {
+  border-top: 1px solid $border;
+  background: $bg-secondary;
+  padding: $space-8 0;
+  color: $text-secondary;
+  font-size: 0.9rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: $space-6;
+  margin-bottom: $space-6;
+}
+
+.footer-section {
+  h4 {
+    margin: 0 0 $space-2;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: $text-primary;
+    border: none;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li { margin: $space-1 0; }
+
+  a {
+    color: $text-secondary;
+    font-size: 0.9rem;
+    &:hover { color: $accent-teal; }
+  }
+}
+
+.footer-bottom {
+  padding-top: $space-4;
+  border-top: 1px solid $border;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: $space-4;
+  font-size: 0.85rem;
+  color: $text-tertiary;
+}
+
+// Hero
+.hero {
+  padding: $space-12 0 $space-8;
+  border-bottom: 1px solid $border;
+  margin-bottom: $space-8;
+
+  h1 {
+    font-size: 2.25rem;
+    margin-bottom: $space-2;
+    &::before { content: "$ "; color: $accent-teal; }
+  }
+
+  .hero-title-role {
+    color: $text-secondary;
+    font-family: $font-heading;
+    font-size: 1rem;
+    margin-bottom: $space-4;
+  }
+
+  .hero-mission {
+    font-size: 1.1rem;
+    color: $text-secondary;
+    max-width: $max-content-width;
+  }
+}
+
+// Section headings on index pages
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: $space-4;
+  margin: $space-12 0 $space-4;
+  padding-bottom: $space-2;
+  border-bottom: 1px solid $border;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+
+    &::before { content: "// "; color: $accent-teal; }
+  }
+
+  a { font-size: 0.85rem; color: $text-secondary; }
+}
+
+// Post list
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: $space-2;
+}
+
+.post-list-item {
+  padding: $space-4;
+  border: 1px solid $border;
+  border-radius: $border-radius;
+  background: $bg-secondary;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    border-color: $accent-teal;
+    transform: translateX(2px);
+  }
+
+  .post-meta {
+    display: flex;
+    gap: $space-4;
+    font-family: $font-heading;
+    font-size: 0.8rem;
+    color: $text-tertiary;
+    margin-bottom: $space-2;
+    flex-wrap: wrap;
+  }
+
+  .post-title {
+    margin: 0 0 $space-2;
+    font-size: 1.15rem;
+
+    a { color: $text-primary; &:hover { color: $accent-teal; text-decoration: none; } }
+  }
+
+  .post-tldr {
+    color: $text-secondary;
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  .post-tags {
+    margin-top: $space-3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-1;
+  }
+}
+
+// Tag chip
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  font-family: $font-heading;
+  font-size: 0.75rem;
+  color: $text-secondary;
+  background: $bg-tertiary;
+  border: 1px solid $border;
+  border-radius: $border-radius;
+  text-decoration: none;
+
+  &:hover {
+    color: $accent-teal;
+    border-color: $accent-teal;
+    text-decoration: none;
+  }
+}
+
+// Pagination
+.pagination {
+  display: flex;
+  gap: $space-3;
+  justify-content: center;
+  margin: $space-8 0;
+  font-family: $font-heading;
+  font-size: 0.9rem;
+
+  a, span {
+    padding: $space-2 $space-4;
+    border: 1px solid $border;
+    border-radius: $border-radius;
+    color: $text-secondary;
+  }
+
+  a:hover {
+    border-color: $accent-teal;
+    color: $accent-teal;
+    text-decoration: none;
+  }
+
+  .current {
+    border-color: $accent-teal;
+    color: $accent-teal;
+  }
+}
+
+// Card grid (tools)
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: $space-4;
+}
+
+.card {
+  background: $bg-secondary;
+  border: 1px solid $border;
+  border-radius: $border-radius;
+  padding: $space-6;
+  transition: border-color 0.15s ease;
+
+  &:hover { border-color: $accent-teal; }
+
+  h3 {
+    margin: 0 0 $space-2;
+    font-size: 1.1rem;
+
+    a { color: $text-primary; &:hover { color: $accent-teal; } }
+  }
+
+  .card-tagline {
+    color: $text-secondary;
+    font-size: 0.9rem;
+    margin-bottom: $space-4;
+  }
+
+  .card-meta {
+    display: flex;
+    gap: $space-3;
+    font-family: $font-heading;
+    font-size: 0.8rem;
+    color: $text-tertiary;
+    flex-wrap: wrap;
+  }
+}
+
+// Table of detections
+.detections-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: $space-6 0;
+
+  th, td {
+    padding: $space-3 $space-4;
+    text-align: left;
+    border-bottom: 1px solid $border;
+  }
+
+  th {
+    font-family: $font-heading;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: $text-secondary;
+    background: $bg-secondary;
+    font-weight: 600;
+  }
+
+  tbody tr:hover { background: $bg-secondary; }
+
+  code {
+    font-size: 0.85em;
+  }
+}
+
+@media (max-width: $bp-md) {
+  .container { padding: 0 $space-4; }
+  h1 { font-size: 1.7rem; }
+  .hero h1 { font-size: 1.8rem; }
+  .site-nav { gap: $space-4; }
+  .nav-links { gap: $space-4; }
+}

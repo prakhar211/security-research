@@ -1,0 +1,16 @@
+primary:
+  - title: Posts
+    url: /
+    match: /posts/
+  - title: Detections
+    url: /detections/
+    match: /detections/
+  - title: Tools
+    url: /tools/
+    match: /tools/
+  - title: About
+    url: /about/
+    match: /about/
+  - title: RSS
+    url: /feed.xml
+    match: feed.xml

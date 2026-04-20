@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use detection rules or research from this repository, please cite it."
+type: software
+authors:
+  - family-names: "Gupta"
+    given-names: "Prakhar"
+title: "Security Research & Detection Engineering"
+url: "https://github.com/username/security-research"
+license: MIT

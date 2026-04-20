@@ -1,0 +1,6 @@
+type,value,first_seen,last_seen,confidence,context,tags
+domain,evil-example.com,2026-04-01,,high,AiTM phishing kit first-hop redirector,phishing;aitm;credential-harvest
+domain,login-microsoft-verify.example.net,2026-04-01,,high,Credential capture proxy hostname,phishing;aitm;m365
+url,https://evil-example.com/auth/redirect,2026-04-01,,high,Redirect landing page,phishing;aitm
+ip,203.0.113.42,2026-04-02,,medium,C2 infrastructure — shared by multiple phishing kits,c2;phishing
+sha256,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,2026-04-03,,high,Malicious OAuth consent grant payload,oauth;m365;phishing

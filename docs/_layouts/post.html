@@ -1,0 +1,73 @@
+---
+layout: default
+---
+<article class="post container--narrow">
+  <header class="post-header">
+    {%- if page.category -%}
+      <div class="post-category">{{ page.category | replace: '-', ' ' }}</div>
+    {%- endif -%}
+    <h1>{{ page.title }}</h1>
+
+    <div class="post-meta">
+      <span class="meta-item"><span class="meta-label">Published:</span> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time></span>
+      {%- if page.author -%}<span class="meta-item"><span class="meta-label">Author:</span> {{ page.author }}</span>{%- endif -%}
+      {%- if page.severity -%}<span class="meta-item"><span class="meta-label">Severity:</span> <span class="pill pill--{{ page.severity }}">{{ page.severity }}</span></span>{%- endif -%}
+      <span class="meta-item"><span class="meta-label">Reading time:</span> {{ content | number_of_words | divided_by: 200 | plus: 1 }} min</span>
+    </div>
+
+    {%- if page.tldr -%}
+      <div class="post-tldr">
+        <strong>TL;DR</strong>
+        {{ page.tldr }}
+      </div>
+    {%- endif -%}
+
+    {%- if page.tags and page.tags.size > 0 -%}
+      <div class="post-tags">
+        {%- for tag in page.tags -%}
+          <span class="tag">{{ tag }}</span>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+
+    {%- if page.mitre_techniques and page.mitre_techniques.size > 0 -%}
+      <h2 id="mitre-attck-mapping">MITRE ATT&amp;CK Mapping</h2>
+      <div class="mitre-badges">
+        {%- for t in page.mitre_techniques -%}
+          {%- include mitre-badge.html id=t.id name=t.name -%}
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  </div>
+
+  <footer class="post-footer">
+    <div class="post-footer-section">
+      <h4>Share / Cite</h4>
+      <p>
+        Cite this post as:
+        <code>{{ site.author.name }} ({{ page.date | date: "%Y" }}). "{{ page.title }}." {{ site.title | strip }}. {{ page.url | absolute_url }}</code>
+      </p>
+    </div>
+
+    {%- if page.previous.url or page.next.url -%}
+      <nav class="post-nav" aria-label="Post navigation">
+        {%- if page.previous.url -%}
+          <a class="post-nav-prev" href="{{ page.previous.url | relative_url }}">
+            <div class="nav-direction">← Previous</div>
+            <div class="nav-title">{{ page.previous.title }}</div>
+          </a>
+        {%- else -%}<span></span>{%- endif -%}
+        {%- if page.next.url -%}
+          <a class="post-nav-next" href="{{ page.next.url | relative_url }}">
+            <div class="nav-direction">Next →</div>
+            <div class="nav-title">{{ page.next.title }}</div>
+          </a>
+        {%- else -%}<span></span>{%- endif -%}
+      </nav>
+    {%- endif -%}
+  </footer>
+</article>

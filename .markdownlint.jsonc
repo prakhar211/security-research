@@ -1,0 +1,9 @@
+{
+  // markdownlint configuration — relaxed for blog-post prose
+  "default": true,
+  "MD013": false,       // Line length — off (long prose lines OK)
+  "MD033": false,       // Inline HTML — allowed (used for Liquid includes)
+  "MD041": false,       // First line H1 — off (YAML front matter precedes)
+  "MD024": { "siblings_only": true }, // Duplicate headers OK across sections
+  "MD025": { "front_matter_title": "^\\s*title\\s*[:=]" }
+}

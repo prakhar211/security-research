@@ -1,0 +1,64 @@
+title: "Prakhar Gupta — Security Research"
+description: "Incident case studies, detection engineering, and open-source security tooling."
+url: ""
+baseurl: "/security-research"
+author:
+  name: "Prakhar Gupta"
+  title: "Senior Cloud Security Analyst"
+  linkedin: ""
+  github: ""
+  twitter: ""
+
+# Build
+source: .
+markdown: kramdown
+highlighter: rouge
+permalink: /posts/:year/:month/:day/:title/
+paginate: 10
+paginate_path: "/page/:num/"
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  toc_levels: "2..3"
+
+# Taxonomy
+collections:
+  detections:
+    output: true
+    permalink: /detections/:path/
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "_detections"
+      type: "detections"
+    values:
+      layout: "detection"
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+feed:
+  path: feed.xml
+
+# Exclude from build
+exclude:
+  - README.md
+  - LICENSE
+  - LICENSE-CONTENT.md
+  - CITATION.cff
+  - CONTRIBUTING.md
+  - responsible_disclosure.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - node_modules/

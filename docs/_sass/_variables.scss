@@ -1,0 +1,38 @@
+// Colors — SOC-dark palette
+$bg-primary:       #0d1117;     // GitHub-dark base
+$bg-secondary:     #161b22;     // Card/surface background
+$bg-tertiary:      #1c2128;     // Code blocks, elevated surfaces
+$text-primary:     #e6edf3;     // Main body text
+$text-secondary:   #8b949e;     // Muted text, metadata
+$text-tertiary:    #6e7681;     // Timestamps, slugs
+$accent-teal:      #3ecdc6;     // Primary accent — links, badges, highlights
+$accent-cyan:      #58a6ff;     // Secondary accent — external links
+$accent-amber:     #d29922;     // Warning callouts
+$accent-red:       #f85149;     // Danger callouts, critical severity
+$accent-green:     #3fb950;     // Success, tip callouts, low severity
+$border:           #30363d;     // Borders, dividers
+
+// Typography
+$font-heading:     'JetBrains Mono', 'Fira Code', 'SF Mono', Menlo, monospace;
+$font-body:        'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$font-code:        'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'SF Mono', Menlo, monospace;
+
+// Spacing scale (4px base)
+$space-1: 0.25rem;
+$space-2: 0.5rem;
+$space-3: 0.75rem;
+$space-4: 1rem;
+$space-6: 1.5rem;
+$space-8: 2rem;
+$space-12: 3rem;
+$space-16: 4rem;
+
+// Layout
+$max-content-width: 48rem;      // ~768px — optimal reading width
+$max-page-width:    72rem;      // Full page with sidebar
+$border-radius:     6px;
+
+// Breakpoints
+$bp-sm: 640px;
+$bp-md: 768px;
+$bp-lg: 1024px;

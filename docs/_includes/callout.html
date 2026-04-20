@@ -1,0 +1,14 @@
+{%- assign type = include.type | default: "info" -%}
+{%- case type -%}
+  {%- when "warning" -%}{%- assign icon = "⚠" -%}
+  {%- when "danger"  -%}{%- assign icon = "⛔" -%}
+  {%- when "tip"     -%}{%- assign icon = "✓" -%}
+  {%- else           -%}{%- assign icon = "ℹ" -%}
+{%- endcase -%}
+<aside class="callout callout--{{ type }}" role="note">
+  <div class="callout-icon" aria-hidden="true">{{ icon }}</div>
+  <div class="callout-body">
+    {%- if include.title -%}<div class="callout-title">{{ include.title }}</div>{%- endif -%}
+    <p>{{ include.body }}</p>
+  </div>
+</aside>

@@ -1,0 +1,43 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-section">
+        <h4>Research</h4>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Latest Posts</a></li>
+          <li><a href="{{ '/detections/' | relative_url }}">Detections</a></li>
+          <li><a href="{{ '/tools/' | relative_url }}">Tools</a></li>
+          <li><a href="{{ '/feed.xml' | relative_url }}">RSS / Atom Feed</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>About</h4>
+        <ul>
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+          <li><a href="https://github.com/{{ site.author.github | default: 'username' }}/security-research/blob/main/responsible_disclosure.md">Responsible Disclosure</a></li>
+          <li><a href="https://github.com/{{ site.author.github | default: 'username' }}/security-research/blob/main/LICENSE">License (Code)</a></li>
+          <li><a href="https://github.com/{{ site.author.github | default: 'username' }}/security-research/blob/main/LICENSE-CONTENT.md">License (Content)</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect</h4>
+        <ul>
+          {%- if site.author.github -%}<li><a href="https://github.com/{{ site.author.github }}" rel="me">GitHub</a></li>{%- endif -%}
+          {%- if site.author.linkedin -%}<li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" rel="me">LinkedIn</a></li>{%- endif -%}
+          {%- if site.author.twitter -%}<li><a href="https://twitter.com/{{ site.author.twitter }}" rel="me">Twitter / X</a></li>{%- endif -%}
+          <li><a href="https://github.com/{{ site.author.github | default: 'username' }}/security-research">Source Code</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>
+        © {{ 'now' | date: "%Y" }} {{ site.author.name }} —
+        Code: <a href="https://github.com/{{ site.author.github | default: 'username' }}/security-research/blob/main/LICENSE">MIT</a> ·
+        Content: <a href="https://github.com/{{ site.author.github | default: 'username' }}/security-research/blob/main/LICENSE-CONTENT.md">CC BY-SA 4.0</a>
+      </div>
+      <div>
+        Opinions are my own. IOCs are for defensive use only.
+      </div>
+    </div>
+  </div>
+</footer>

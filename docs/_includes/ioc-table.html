@@ -1,0 +1,102 @@
+{%- comment -%}
+  Renders an IOC table from Jekyll site.data.
+
+  Usage:
+    {% include ioc-table.html campaign="example-campaign" %}
+
+  Data source: docs/_data/iocs/<campaign>.csv — auto-loaded as an array of
+  hashes by Jekyll. Columns: type, value, first_seen, last_seen, confidence,
+  context, tags.
+
+  Note: the canonical SIEM-ingestion CSV lives at the repo root under
+  iocs/<campaign>/indicators.csv. Keep both in sync. Values here render
+  DEFANGED; the button copies the raw value to the clipboard.
+{%- endcomment -%}
+
+{%- assign campaign = include.campaign | default: page.ioc_campaign -%}
+{%- assign data = site.data.iocs[campaign] -%}
+
+{%- if data and data.size > 0 -%}
+<div class="ioc-table-wrapper">
+  <table class="ioc-table" data-ioc-table>
+    <thead>
+      <tr>
+        <th data-sort="type">Type</th>
+        <th data-sort="value">Indicator (defanged)</th>
+        <th data-sort="confidence">Confidence</th>
+        <th>Context</th>
+        <th>First Seen</th>
+        <th>Copy</th>
+      </tr>
+    </thead>
+    <tbody>
+      {%- for row in data -%}
+        {%- assign defanged = row.value
+              | replace: 'http://',  'hxxp://'
+              | replace: 'https://', 'hxxps://'
+              | replace: '.', '[.]' -%}
+        <tr>
+          <td><span class="ioc-type">{{ row.type }}</span></td>
+          <td class="ioc-value">{{ defanged }}</td>
+          <td><span class="pill pill--{{ row.confidence | downcase }}">{{ row.confidence }}</span></td>
+          <td>{{ row.context }}</td>
+          <td>{{ row.first_seen }}</td>
+          <td>
+            <button class="ioc-copy" type="button" data-ioc-copy="{{ row.value | escape }}" aria-label="Copy raw indicator">copy</button>
+          </td>
+        </tr>
+      {%- endfor -%}
+    </tbody>
+  </table>
+  <p style="font-size: 0.85rem; color: var(--text-tertiary); margin-top: 0.5rem;">
+    Raw (non-defanged) CSV for SIEM ingestion:
+    <a href="https://github.com/{{ site.author.github | default: 'username' }}/security-research/blob/main/iocs/{{ campaign }}/indicators.csv">
+      iocs/{{ campaign }}/indicators.csv
+    </a>
+  </p>
+</div>
+{%- else -%}
+<p><em>No IOC data registered for campaign <code>{{ campaign }}</code>.</em></p>
+{%- endif -%}
+
+<script>
+  (function () {
+    document.querySelectorAll('[data-ioc-copy]').forEach(function (btn) {
+      if (btn.dataset.bound) return;
+      btn.dataset.bound = "1";
+      btn.addEventListener('click', function () {
+        var raw = btn.getAttribute('data-ioc-copy');
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(raw).then(function () {
+            btn.textContent = 'copied';
+            btn.classList.add('copied');
+            setTimeout(function () {
+              btn.textContent = 'copy';
+              btn.classList.remove('copied');
+            }, 1500);
+          });
+        }
+      });
+    });
+
+    document.querySelectorAll('[data-ioc-table] th[data-sort]').forEach(function (th, i) {
+      if (th.dataset.bound) return;
+      th.dataset.bound = "1";
+      th.addEventListener('click', function () {
+        var table = th.closest('table');
+        var tbody = table.querySelector('tbody');
+        var rows  = Array.from(tbody.querySelectorAll('tr'));
+        var asc   = !(th.dataset.asc === 'true');
+        rows.sort(function (a, b) {
+          var av = a.children[i].innerText.trim().toLowerCase();
+          var bv = b.children[i].innerText.trim().toLowerCase();
+          if (av < bv) return asc ? -1 : 1;
+          if (av > bv) return asc ? 1 : -1;
+          return 0;
+        });
+        rows.forEach(function (r) { tbody.appendChild(r); });
+        th.dataset.asc = asc;
+      });
+    });
+  })();
+</script>

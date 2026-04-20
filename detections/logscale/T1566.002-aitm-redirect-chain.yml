@@ -1,0 +1,53 @@
+id: DET-2026-001
+name: "AiTM Phishing - Suspicious Redirect Chain"
+description: |
+  Detects proxy-based AiTM phishing kits (Tycoon 2FA / Rockstar 2FA lineage)
+  by identifying redirect chains through newly registered or low-reputation
+  top-level domains (TLDs) that terminate at the Microsoft 365 login page.
+  Adversaries running AiTM kits typically purchase throwaway domains on
+  `.cfd`, `.xyz`, `.top`, `.buzz`, `.click`, `.icu`, and similar TLDs, then
+  use them as the first-hop redirector before the credential-capture proxy.
+author: "Prakhar Gupta"
+created: 2026-04-20
+modified: 2026-04-20
+severity: high
+confidence: high
+mitre_attack:
+  - technique: T1566.002
+    tactic: Initial Access
+  - technique: T1557.001
+    tactic: Credential Access
+platform: logscale
+data_sources:
+  - "Zscaler ZIA Web Logs"
+  - "Proxy Logs (Netskope / Cisco Umbrella / generic proxy)"
+  - "CrowdStrike Falcon WebRequest events (#event_simpleName=WebRequest)"
+query: |
+  // CrowdStrike LogScale — AiTM redirect chain to login.microsoftonline.com
+  #event_simpleName = /WebRequest/
+  | url = /login\.microsoftonline\.com/
+  | referrer = /\.(cfd|xyz|top|buzz|click|icu|fit|sbs)(\/|$)/i
+  | groupBy([referrer, ComputerName, UserName], function=count(as=hits))
+  | hits > 0
+  | sort(hits, order=desc, limit=200)
+false_positives:
+  - "Legitimate marketing redirect chains that happen to use new-TLD domains"
+  - "Security awareness training platforms that simulate phishing flows"
+  - "Short-link services that occasionally terminate at MS login for SSO-gated content"
+tuning_notes: |
+  Extend the TLD regex to match the abuse patterns you observe — new TLDs
+  rotate frequently. Maintain an allowlist of known-good vendor domains.
+  For environments with heavy SaaS SSO traffic, consider layering a frequency
+  threshold (e.g., distinct users >= 3 within 30 minutes) to suppress one-off
+  clicks.
+references:
+  - "https://attack.mitre.org/techniques/T1566/002/"
+  - "https://attack.mitre.org/techniques/T1557/001/"
+  - "https://www.microsoft.com/en-us/security/blog/2022/07/12/from-cookie-theft-to-bec-attackers-use-aitm-phishing-sites/"
+tags:
+  - aitm
+  - phishing
+  - m365
+  - tycoon-2fa
+  - rockstar-2fa
+  - credential-harvest
