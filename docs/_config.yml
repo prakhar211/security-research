@@ -1,13 +1,13 @@
 title: "Prakhar Gupta — Security Research"
 description: "Incident case studies, detection engineering, and open-source security tooling."
-url: ""
+url: "https://prakhar211.github.io"
 baseurl: "/security-research"
 author:
   name: "Prakhar Gupta"
   title: "Senior Cloud Security Analyst"
-  linkedin: ""
-  github: ""
-  twitter: ""
+  linkedin: "prakhar-gupta21"
+  github: "prakhar211"
+  twitter: "gupta_prakhar96"
 
 # Build
 source: .
