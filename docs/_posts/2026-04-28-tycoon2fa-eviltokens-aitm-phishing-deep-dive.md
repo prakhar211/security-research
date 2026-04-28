@@ -43,6 +43,14 @@ Tycoon2FA emerged in August 2023 and rapidly became the dominant AiTM phishing-a
 
 ### How It Worked
 
+{% include attack-flow.html
+   title="Tycoon2FA — AiTM Attack Flow"
+   steps="Phishing Email|Reverse Proxy Page|Credential + MFA Capture|Token Replay|Mailbox Compromise"
+   colors="#e74c3c|#e67e22|#e74c3c|#9b59b6|#e67e22"
+   icons="✉️|🌐|🔓|🔑|📧"
+   description="Tycoon2FA proxies the real Microsoft login, intercepting session cookies after MFA completion. The attacker replays the stolen cookie from their own infrastructure."
+%}
+
 The attack flow was textbook AiTM:
 
 1. **Lure delivery** — phishing email with a link to a credential page, often behind Cloudflare Turnstile CAPTCHA to block automated analysis
@@ -65,6 +73,16 @@ A coordinated action led by Microsoft and Europol, with law enforcement from Lat
 - **Activity dropped to 25%** of pre-disruption levels on March 4–5
 - Intelligence shared through Europol's Cyber Intelligence Extension Programme
 
+{% include trend-chart.html
+   title="Tycoon2FA Activity Levels Around Europol Disruption"
+   labels="Feb 28|Mar 1|Mar 2|Mar 3|Mar 4|Mar 5|Mar 6|Mar 7|Mar 8|Mar 10"
+   values="100|100|100|100|25|25|60|85|95|100"
+   highlight_indices="4|5"
+   unit="%"
+   annotation="Europol disruption"
+   annotation_index="4"
+%}
+
 ### But It Didn't Hold
 
 The disruption proved temporary. Researchers at CrowdStrike and others observed Tycoon2FA returning to near-full operational capacity within days. Some older infrastructure was never taken offline. New domains and IP addresses were registered rapidly post-takedown.
@@ -76,6 +94,14 @@ The takedown did, however, trigger an important shift: **affiliates began migrat
 In mid-February 2026, Sekoia's TDR team uncovered **EvilTokens** — a turnkey device code phishing kit sold as PhaaS. By March, it was being widely adopted by former Tycoon2FA affiliates and BEC operators.
 
 ### How Device Code Phishing Works
+
+{% include attack-flow.html
+   title="EvilTokens — Device Code Phishing Flow"
+   steps="Attacker Requests Code|Lure: 'Verify Device'|Victim Enters Code at MS|Attacker Gets Tokens|AI-Powered BEC"
+   colors="#9b59b6|#e74c3c|#e67e22|#e74c3c|#9b59b6"
+   icons="🖥️|✉️|🔐|🔑|🤖"
+   description="The victim authenticates on a legitimate Microsoft URL. No fake login page needed — the attacker receives OAuth tokens directly."
+%}
 
 The brilliance — and danger — of this technique is that the victim interacts with a **legitimate Microsoft URL** throughout:
 
@@ -345,16 +371,11 @@ See the [STIX 2.1 bundle](https://github.com/prakhar211/security-research/tree/m
 
 ## Timeline
 
-| Date | Event |
-|------|-------|
-| Aug 2023 | Tycoon2FA first observed |
-| Apr 2025 | Major anti-detection update to Tycoon2FA |
-| Feb 2026 | EvilTokens phishing pages first seen in the wild |
-| Mar 4, 2026 | Europol + Microsoft disrupt Tycoon2FA — 330 domains seized |
-| Mar 6, 2026 | Tycoon2FA back to near-full operational capacity |
-| Mar 2026 | Sekoia publishes EvilTokens analysis |
-| Apr 2026 | Microsoft publishes AI-enabled device code phishing campaign report |
-| Apr 2026 | Former Tycoon2FA affiliates widely adopt device code phishing |
+{% include timeline-visual.html
+   title="Tycoon2FA → EvilTokens Campaign Timeline"
+   events="Aug 2023: Tycoon2FA first observed in the wild|Apr 2025: Major anti-detection update to Tycoon2FA kit|Feb 2026: EvilTokens phishing pages first seen|Mar 4, 2026: Europol + Microsoft disrupt Tycoon2FA — 330 domains seized|Mar 6, 2026: Tycoon2FA back to near-full operational capacity|Mar 2026: Sekoia publishes EvilTokens analysis|Apr 2026: Microsoft publishes AI-enabled device code phishing report|Apr 2026: Former Tycoon2FA affiliates widely adopt device code phishing"
+   highlights="3|4"
+%}
 
 ## References
 

@@ -1,0 +1,81 @@
+<!--
+  Trend / Bar Chart — reusable include for blog posts.
+
+  Usage:
+    {% include trend-chart.html
+       title="Tycoon2FA Activity Levels Around Disruption"
+       labels="Feb 28|Mar 1|Mar 2|Mar 3|Mar 4|Mar 5|Mar 6|Mar 7|Mar 8"
+       values="100|100|100|100|25|25|60|85|95"
+       highlight_indices="4|5"
+       unit="%"
+       annotation="Europol disruption on Mar 4"
+       annotation_index="4"
+    %}
+
+  Parameters:
+    title             — chart heading
+    labels            — pipe-separated x-axis labels
+    values            — pipe-separated numeric values (0-100 scale)
+    highlight_indices — pipe-separated indices to color differently (optional)
+    unit              — suffix for value display (optional, e.g. "%")
+    annotation        — text annotation (optional)
+    annotation_index  — which bar to annotate (optional)
+-->
+{% assign label_list = include.labels | split: "|" %}
+{% assign value_list = include.values | split: "|" %}
+{% assign hi_list = include.highlight_indices | split: "|" %}
+{% assign bar_count = label_list.size %}
+{% assign bar_width = 50 %}
+{% assign bar_gap = 15 %}
+{% assign chart_width = bar_count | times: 65 | plus: 100 %}
+{% assign chart_height = 280 %}
+{% assign base_y = 230 %}
+
+<figure class="trend-chart" role="img" aria-label="{{ include.title }}">
+  {% if include.title %}<figcaption class="trend-title" style="font-family:'JetBrains Mono',monospace;font-size:0.95rem;color:var(--accent,#00e5a0);margin-bottom:0.75rem;">// {{ include.title | upcase }}</figcaption>{% endif %}
+  <svg viewBox="0 0 {{ chart_width }} {{ chart_height }}" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:{{ chart_width }}px;height:auto;display:block;margin:0 auto 1.5rem;">
+    <style>
+      .tc-bar { rx: 4; ry: 4; }
+      .tc-label { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #888; text-anchor: middle; }
+      .tc-value { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #ccc; text-anchor: middle; }
+      .tc-axis { stroke: #333; stroke-width: 1; }
+      .tc-annotation { font-family: -apple-system, sans-serif; font-size: 11px; fill: #e74c3c; text-anchor: middle; }
+      .tc-anno-line { stroke: #e74c3c; stroke-width: 1; stroke-dasharray: 4,3; }
+    </style>
+    <!-- X axis -->
+    <line class="tc-axis" x1="50" y1="{{ base_y }}" x2="{{ chart_width | minus: 20 }}" y2="{{ base_y }}"/>
+    <!-- Y axis gridlines -->
+    {% for tick in (0..4) %}
+      {% assign gy = base_y | minus: tick | times: 45 %}
+      {% comment %}manual calc: 230, 185, 140, 95, 50{% endcomment %}
+    {% endfor %}
+    <line class="tc-axis" x1="50" y1="{{ base_y | minus: 180 }}" x2="{{ chart_width | minus: 20 }}" y2="{{ base_y | minus: 180 }}" opacity="0.2"/>
+    <line class="tc-axis" x1="50" y1="{{ base_y | minus: 90 }}" x2="{{ chart_width | minus: 20 }}" y2="{{ base_y | minus: 90 }}" opacity="0.2"/>
+
+    {% for val in value_list %}
+      {% assign i = forloop.index0 %}
+      {% assign x = i | times: 65 | plus: 60 %}
+      {% assign v = val | plus: 0 %}
+      {% assign bar_h = v | times: 180 | divided_by: 100 %}
+      {% assign bar_y = base_y | minus: bar_h %}
+
+      {% assign is_hi = false %}
+      {% for h in hi_list %}
+        {% assign h_int = h | plus: 0 %}
+        {% if h_int == i %}{% assign is_hi = true %}{% endif %}
+      {% endfor %}
+
+      <rect class="tc-bar" x="{{ x }}" y="{{ bar_y }}" width="{{ bar_width }}" height="{{ bar_h }}"
+            fill="{% if is_hi %}#e74c3c{% else %}var(--accent, #00e5a0){% endif %}"
+            opacity="{% if is_hi %}0.9{% else %}0.7{% endif %}"/>
+      <text class="tc-value" x="{{ x | plus: 25 }}" y="{{ bar_y | minus: 6 }}">{{ val }}{{ include.unit }}</text>
+      <text class="tc-label" x="{{ x | plus: 25 }}" y="{{ base_y | plus: 16 }}">{{ label_list[i] }}</text>
+
+      {% assign anno_idx = include.annotation_index | plus: 0 %}
+      {% if include.annotation and anno_idx == i %}
+        <line class="tc-anno-line" x1="{{ x | plus: 25 }}" y1="15" x2="{{ x | plus: 25 }}" y2="{{ bar_y | minus: 12 }}"/>
+        <text class="tc-annotation" x="{{ x | plus: 25 }}" y="12">↓ {{ include.annotation }}</text>
+      {% endif %}
+    {% endfor %}
+  </svg>
+</figure>

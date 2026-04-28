@@ -24,6 +24,17 @@ tldr: "One-line: what behavior this catches and why it matters."
 
 (1–2 paragraphs: describe the adversary behavior, why it matters, and what stage of the kill chain it covers.)
 
+## Attack Flow
+
+<!-- STANDARD VISUAL: Attack flow showing where this detection fires in the kill chain -->
+{% include attack-flow.html
+   title="Detection Point in Attack Chain"
+   steps="Initial Access|Execution|THIS DETECTION|Exfiltration"
+   colors="#555|#555|#e74c3c|#555"
+   icons="✉️|⚙️|🎯|📤"
+   description="This detection fires at step 3. Update to reflect where your detection sits in the attack chain."
+%}
+
 ## Detection Logic
 
 ### CrowdStrike LogScale

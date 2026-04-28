@@ -17,7 +17,14 @@ tagline: "One-line description shown on the Tools index page."
 
 ## Architecture
 
-(High-level design: components, data flow, inputs/outputs. Include a diagram if helpful.)
+<!-- STANDARD VISUAL: Tool data flow diagram -->
+{% include attack-flow.html
+   title="Data Flow"
+   steps="Input Source|Processing|Analysis Engine|Output"
+   colors="var(--accent)|#3498db|#3498db|var(--accent)"
+   icons="📥|⚙️|🔍|📊"
+   description="Update with the actual data flow of your tool."
+%}
 
 ## Quick Start
 

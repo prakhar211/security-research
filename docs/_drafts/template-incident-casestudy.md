@@ -20,7 +20,25 @@ severity: high    # critical | high | medium | low
 
 (2–3 sentences: what happened, who was affected conceptually, outcome.)
 
+## Attack Flow
+
+<!-- STANDARD VISUAL: Attack flow diagram — update steps/colors/icons per investigation -->
+{% include attack-flow.html
+   title="Attack Flow"
+   steps="Initial Access|Execution|Persistence|Lateral Movement|Impact"
+   colors="#e74c3c|#e67e22|#e67e22|#e67e22|#e74c3c"
+   icons="✉️|⚙️|🔒|↔️|💥"
+   description="Update this with the actual attack chain from your investigation."
+%}
+
 ## Attack Timeline
+
+<!-- STANDARD VISUAL: Timeline graphic — update events per investigation -->
+{% include timeline-visual.html
+   title="Investigation Timeline"
+   events="HH:MM UTC: Initial access observed|HH:MM UTC: Persistence established|HH:MM UTC: Lateral movement detected|HH:MM UTC: Containment actions taken|HH:MM UTC: Remediation complete"
+   highlights="0|3"
+%}
 
 | Time (UTC)   | Event                          | Data Source         |
 |--------------|--------------------------------|---------------------|

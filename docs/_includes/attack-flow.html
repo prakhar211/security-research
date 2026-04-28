@@ -1,0 +1,64 @@
+<!--
+  Attack Flow Diagram — reusable include for blog posts.
+
+  Usage in post markdown:
+    {% include attack-flow.html
+       title="AiTM Phishing Attack Flow"
+       steps="Phishing Email|Reverse Proxy Page|Credential + MFA Capture|Token Replay|Mailbox Compromise"
+       colors="var(--accent)|var(--accent)|#e74c3c|#e74c3c|#e67e22"
+       icons="✉️|🌐|🔓|🔑|📧"
+       description="Tycoon2FA proxies the real Microsoft login page, intercepting session cookies after MFA completion."
+    %}
+
+  Parameters:
+    title       — diagram heading
+    steps       — pipe-separated list of step names
+    colors      — pipe-separated colors for each step (optional, defaults to accent)
+    icons       — pipe-separated emoji/icon for each step (optional)
+    description — caption below the diagram
+-->
+{% assign step_list = include.steps | split: "|" %}
+{% assign color_list = include.colors | split: "|" %}
+{% assign icon_list = include.icons | split: "|" %}
+{% assign step_count = step_list.size %}
+
+<figure class="attack-flow-diagram" role="img" aria-label="{{ include.title }}">
+  {% if include.title %}<figcaption class="attack-flow-title">{{ include.title }}</figcaption>{% endif %}
+  <svg viewBox="0 0 {{ step_count | times: 180 | plus: 40 }} 140" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:{{ step_count | times: 180 | plus: 40 }}px;height:auto;display:block;margin:1.5rem auto;">
+    <style>
+      .af-box { rx: 8; ry: 8; stroke-width: 2; }
+      .af-text { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 11px; fill: #fff; text-anchor: middle; }
+      .af-icon { font-size: 22px; text-anchor: middle; }
+      .af-arrow { stroke: #555; stroke-width: 2; fill: none; marker-end: url(#af-arrowhead); }
+      .af-step-num { font-family: 'JetBrains Mono', monospace; font-size: 9px; fill: rgba(255,255,255,0.6); text-anchor: middle; }
+    </style>
+    <defs>
+      <marker id="af-arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+        <polygon points="0 0, 8 3, 0 6" fill="#555"/>
+      </marker>
+    </defs>
+    {% for step in step_list %}
+      {% assign i = forloop.index0 %}
+      {% assign x = i | times: 180 | plus: 20 %}
+      {% assign box_color = color_list[i] | default: "var(--accent, #00e5a0)" %}
+      <rect class="af-box" x="{{ x }}" y="30" width="150" height="90" fill="{{ box_color }}" opacity="0.9" stroke="{{ box_color }}"/>
+      {% if icon_list[i] %}<text class="af-icon" x="{{ x | plus: 75 }}" y="62">{{ icon_list[i] }}</text>{% endif %}
+      <text class="af-text" x="{{ x | plus: 75 }}" y="{% if icon_list[i] %}85{% else %}72{% endif %}">
+        {% assign words = step | split: " " %}
+        {% if words.size > 3 %}
+          <tspan x="{{ x | plus: 75 }}" dy="0">{{ words[0] }} {{ words[1] }}</tspan>
+          <tspan x="{{ x | plus: 75 }}" dy="14">{{ words[2] }} {{ words[3] }} {{ words[4] }}</tspan>
+        {% else %}
+          {{ step }}
+        {% endif %}
+      </text>
+      <text class="af-step-num" x="{{ x | plus: 75 }}" y="110">STEP {{ forloop.index }}</text>
+      {% unless forloop.last %}
+        {% assign arrow_x1 = x | plus: 152 %}
+        {% assign arrow_x2 = x | plus: 178 %}
+        <line class="af-arrow" x1="{{ arrow_x1 }}" y1="75" x2="{{ arrow_x2 }}" y2="75"/>
+      {% endunless %}
+    {% endfor %}
+  </svg>
+  {% if include.description %}<p class="attack-flow-caption" style="text-align:center;color:var(--text-secondary,#888);font-size:0.85rem;margin-top:0.5rem;">{{ include.description }}</p>{% endif %}
+</figure>
