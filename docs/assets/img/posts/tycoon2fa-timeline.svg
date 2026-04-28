@@ -1,0 +1,64 @@
+<svg viewBox="0 0 700 650" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .timeline-line { stroke: #333; stroke-width: 3; }
+    .timeline-dot { stroke-width: 2; }
+    .timeline-date { font-family: 'JetBrains Mono', monospace; font-size: 12px; fill: #00e5a0; font-weight: bold; }
+    .timeline-desc { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 12px; fill: #ccc; }
+    .timeline-highlight .timeline-date { fill: #e74c3c; }
+    .timeline-highlight .timeline-dot { fill: #e74c3c; stroke: #e74c3c; }
+    .title { font-family: 'JetBrains Mono', monospace; font-size: 13px; fill: #00e5a0; font-weight: bold; }
+  </style>
+
+  <!-- Title -->
+  <text class="title" x="350" y="25">// TYCOON2FA → EVILTOKENS TIMELINE</text>
+
+  <!-- Vertical timeline line -->
+  <line class="timeline-line" x1="120" y1="50" x2="120" y2="620"/>
+
+  <!-- Event 1: Aug 2023 - Tycoon2FA first observed -->
+  <circle class="timeline-dot" cx="120" cy="80" r="6" fill="#00e5a0" stroke="#00e5a0"/>
+  <text class="timeline-date" x="105" y="85" text-anchor="end">Aug 2023</text>
+  <text class="timeline-desc" x="140" y="85">Tycoon2FA first observed in the wild</text>
+
+  <!-- Event 2: Apr 2025 - Anti-detection update -->
+  <circle class="timeline-dot" cx="120" cy="150" r="6" fill="#00e5a0" stroke="#00e5a0"/>
+  <text class="timeline-date" x="105" y="155" text-anchor="end">Apr 2025</text>
+  <text class="timeline-desc" x="140" y="155">Major anti-detection update to kit</text>
+
+  <!-- Event 3: Feb 2026 - EvilTokens first seen -->
+  <circle class="timeline-dot" cx="120" cy="220" r="6" fill="#00e5a0" stroke="#00e5a0"/>
+  <text class="timeline-date" x="105" y="225" text-anchor="end">Feb 2026</text>
+  <text class="timeline-desc" x="140" y="225">EvilTokens phishing pages first seen</text>
+
+  <!-- Event 4: Mar 4, 2026 - Europol disruption - HIGHLIGHTED -->
+  <g class="timeline-highlight">
+    <circle class="timeline-dot" cx="120" cy="290" r="7" fill="#e74c3c" stroke="#e74c3c"/>
+    <text class="timeline-date" x="105" y="295" text-anchor="end">Mar 4, 2026</text>
+  </g>
+  <text class="timeline-desc" x="140" y="290">Europol + Microsoft disrupt Tycoon2FA</text>
+  <text class="timeline-desc" x="140" y="305">330 domains seized</text>
+
+  <!-- Event 5: Mar 6, 2026 - Back to full capacity - HIGHLIGHTED -->
+  <g class="timeline-highlight">
+    <circle class="timeline-dot" cx="120" cy="360" r="7" fill="#e74c3c" stroke="#e74c3c"/>
+    <text class="timeline-date" x="105" y="365" text-anchor="end">Mar 6, 2026</text>
+  </g>
+  <text class="timeline-desc" x="140" y="365">Tycoon2FA back to near-full capacity</text>
+
+  <!-- Event 6: Mar 2026 - Sekoia analysis -->
+  <circle class="timeline-dot" cx="120" cy="430" r="6" fill="#00e5a0" stroke="#00e5a0"/>
+  <text class="timeline-date" x="105" y="435" text-anchor="end">Mar 2026</text>
+  <text class="timeline-desc" x="140" y="435">Sekoia publishes EvilTokens analysis</text>
+
+  <!-- Event 7: Apr 2026 - Microsoft device code report -->
+  <circle class="timeline-dot" cx="120" cy="500" r="6" fill="#00e5a0" stroke="#00e5a0"/>
+  <text class="timeline-date" x="105" y="505" text-anchor="end">Apr 2026</text>
+  <text class="timeline-desc" x="140" y="505">Microsoft publishes device code</text>
+  <text class="timeline-desc" x="140" y="520">phishing report</text>
+
+  <!-- Event 8: Apr 2026 - Affiliates adopt device code -->
+  <circle class="timeline-dot" cx="120" cy="570" r="6" fill="#00e5a0" stroke="#00e5a0"/>
+  <text class="timeline-date" x="105" y="575" text-anchor="end">Apr 2026</text>
+  <text class="timeline-desc" x="140" y="575">Affiliates widely adopt device code</text>
+  <text class="timeline-desc" x="140" y="590">phishing techniques</text>
+</svg>

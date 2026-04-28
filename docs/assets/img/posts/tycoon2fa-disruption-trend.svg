@@ -1,0 +1,88 @@
+<svg viewBox="0 0 750 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="anno-arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#e74c3c"/>
+    </marker>
+  </defs>
+  <style>
+    .bar { rx: 4; ry: 4; }
+    .label { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #888; text-anchor: middle; }
+    .value { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #ccc; text-anchor: middle; }
+    .axis { stroke: #333; stroke-width: 1; }
+    .annotation { font-family: -apple-system, sans-serif; font-size: 12px; fill: #e74c3c; text-anchor: middle; font-weight: bold; }
+    .anno-line { stroke: #e74c3c; stroke-width: 1.5; stroke-dasharray: 4,3; }
+    .title { font-family: 'JetBrains Mono', monospace; font-size: 13px; fill: #00e5a0; font-weight: bold; }
+  </style>
+
+  <!-- Title -->
+  <text class="title" x="375" y="25">// TYCOON2FA ACTIVITY LEVELS AROUND EUROPOL DISRUPTION</text>
+
+  <!-- X axis -->
+  <line class="axis" x1="50" y1="240" x2="730" y2="240"/>
+
+  <!-- Y axis -->
+  <line class="axis" x1="50" y1="60" x2="50" y2="240"/>
+
+  <!-- Grid lines for 50% and 100% -->
+  <line class="axis" x1="50" y1="150" x2="730" y2="150" opacity="0.2"/>
+  <line class="axis" x1="50" y1="60" x2="730" y2="60" opacity="0.2"/>
+
+  <!-- Y axis labels -->
+  <text class="label" x="40" y="245" font-size="9px">0%</text>
+  <text class="label" x="40" y="155" font-size="9px">50%</text>
+  <text class="label" x="40" y="65" font-size="9px">100%</text>
+
+  <!-- Bar 1: Feb 28 (100%) -->
+  <rect class="bar" x="60" y="60" width="45" height="180" fill="#00e5a0" opacity="0.7"/>
+  <text class="value" x="87" y="50">100%</text>
+  <text class="label" x="87" y="255">Feb 28</text>
+
+  <!-- Bar 2: Mar 1 (100%) -->
+  <rect class="bar" x="115" y="60" width="45" height="180" fill="#00e5a0" opacity="0.7"/>
+  <text class="value" x="142" y="50">100%</text>
+  <text class="label" x="142" y="255">Mar 1</text>
+
+  <!-- Bar 3: Mar 2 (100%) -->
+  <rect class="bar" x="170" y="60" width="45" height="180" fill="#00e5a0" opacity="0.7"/>
+  <text class="value" x="197" y="50">100%</text>
+  <text class="label" x="197" y="255">Mar 2</text>
+
+  <!-- Bar 4: Mar 3 (100%) -->
+  <rect class="bar" x="225" y="60" width="45" height="180" fill="#00e5a0" opacity="0.7"/>
+  <text class="value" x="252" y="50">100%</text>
+  <text class="label" x="252" y="255">Mar 3</text>
+
+  <!-- Bar 5: Mar 4 (25%) - HIGHLIGHTED -->
+  <rect class="bar" x="280" y="195" width="45" height="45" fill="#e74c3c" opacity="0.9"/>
+  <text class="value" x="307" y="190">25%</text>
+  <text class="label" x="307" y="255">Mar 4</text>
+
+  <!-- Annotation arrow for Mar 4 -->
+  <line class="anno-line" x1="307" y1="30" x2="307" y2="185"/>
+  <text class="annotation" x="307" y="25">↓ Europol disruption</text>
+
+  <!-- Bar 6: Mar 5 (25%) - HIGHLIGHTED -->
+  <rect class="bar" x="335" y="195" width="45" height="45" fill="#e74c3c" opacity="0.9"/>
+  <text class="value" x="362" y="190">25%</text>
+  <text class="label" x="362" y="255">Mar 5</text>
+
+  <!-- Bar 7: Mar 6 (60%) -->
+  <rect class="bar" x="390" y="132" width="45" height="108" fill="#00e5a0" opacity="0.7"/>
+  <text class="value" x="417" y="122">60%</text>
+  <text class="label" x="417" y="255">Mar 6</text>
+
+  <!-- Bar 8: Mar 7 (85%) -->
+  <rect class="bar" x="445" y="88" width="45" height="152" fill="#00e5a0" opacity="0.7"/>
+  <text class="value" x="472" y="78">85%</text>
+  <text class="label" x="472" y="255">Mar 7</text>
+
+  <!-- Bar 9: Mar 8 (95%) -->
+  <rect class="bar" x="500" y="69" width="45" height="171" fill="#00e5a0" opacity="0.7"/>
+  <text class="value" x="527" y="59">95%</text>
+  <text class="label" x="527" y="255">Mar 8</text>
+
+  <!-- Bar 10: Mar 10 (100%) -->
+  <rect class="bar" x="555" y="60" width="45" height="180" fill="#00e5a0" opacity="0.7"/>
+  <text class="value" x="582" y="50">100%</text>
+  <text class="label" x="582" y="255">Mar 10</text>
+</svg>

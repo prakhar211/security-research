@@ -1,0 +1,61 @@
+<svg viewBox="0 0 1000 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead-evil" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#555"/>
+    </marker>
+  </defs>
+  <style>
+    .box { rx: 8; ry: 8; stroke-width: 2; }
+    .box-text { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 11px; fill: #fff; text-anchor: middle; }
+    .box-icon { font-size: 22px; text-anchor: middle; }
+    .arrow { stroke: #555; stroke-width: 2; fill: none; marker-end: url(#arrowhead-evil); }
+    .step-num { font-family: 'JetBrains Mono', monospace; font-size: 9px; fill: rgba(255,255,255,0.6); text-anchor: middle; }
+  </style>
+
+  <!-- Step 1: Attacker Requests Code -->
+  <rect class="box" x="10" y="30" width="160" height="90" fill="#9b59b6" opacity="0.9" stroke="#9b59b6"/>
+  <text class="box-icon" x="90" y="62">🖥️</text>
+  <text class="box-text" x="90" y="79">Attacker</text>
+  <text class="box-text" x="90" y="93">Requests Code</text>
+  <text class="step-num" x="90" y="110">STEP 1</text>
+
+  <!-- Arrow 1 -->
+  <line class="arrow" x1="172" y1="75" x2="198" y2="75"/>
+
+  <!-- Step 2: Lure Verify Device -->
+  <rect class="box" x="200" y="30" width="160" height="90" fill="#e74c3c" opacity="0.9" stroke="#e74c3c"/>
+  <text class="box-icon" x="280" y="62">✉️</text>
+  <text class="box-text" x="280" y="79">Lure:</text>
+  <text class="box-text" x="280" y="93">"Verify Device"</text>
+  <text class="step-num" x="280" y="110">STEP 2</text>
+
+  <!-- Arrow 2 -->
+  <line class="arrow" x1="362" y1="75" x2="388" y2="75"/>
+
+  <!-- Step 3: Victim Enters Code at MS -->
+  <rect class="box" x="390" y="30" width="160" height="90" fill="#e67e22" opacity="0.9" stroke="#e67e22"/>
+  <text class="box-icon" x="470" y="62">🔐</text>
+  <text class="box-text" x="470" y="79">Victim Enters</text>
+  <text class="box-text" x="470" y="93">Code at MS</text>
+  <text class="step-num" x="470" y="110">STEP 3</text>
+
+  <!-- Arrow 3 -->
+  <line class="arrow" x1="552" y1="75" x2="578" y2="75"/>
+
+  <!-- Step 4: Attacker Gets Tokens -->
+  <rect class="box" x="580" y="30" width="160" height="90" fill="#e74c3c" opacity="0.9" stroke="#e74c3c"/>
+  <text class="box-icon" x="660" y="62">🔑</text>
+  <text class="box-text" x="660" y="79">Attacker Gets</text>
+  <text class="box-text" x="660" y="93">Tokens</text>
+  <text class="step-num" x="660" y="110">STEP 4</text>
+
+  <!-- Arrow 4 -->
+  <line class="arrow" x1="742" y1="75" x2="768" y2="75"/>
+
+  <!-- Step 5: AI-Powered BEC -->
+  <rect class="box" x="770" y="30" width="160" height="90" fill="#9b59b6" opacity="0.9" stroke="#9b59b6"/>
+  <text class="box-icon" x="850" y="62">🤖</text>
+  <text class="box-text" x="850" y="79">AI-Powered</text>
+  <text class="box-text" x="850" y="93">BEC</text>
+  <text class="step-num" x="850" y="110">STEP 5</text>
+</svg>

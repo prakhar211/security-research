@@ -27,13 +27,9 @@ tldr: "One-line: what behavior this catches and why it matters."
 ## Attack Flow
 
 <!-- STANDARD VISUAL: Attack flow showing where this detection fires in the kill chain -->
-{% include attack-flow.html
-   title="Detection Point in Attack Chain"
-   steps="Initial Access|Execution|THIS DETECTION|Exfiltration"
-   colors="#555|#555|#e74c3c|#555"
-   icons="✉️|⚙️|🎯|📤"
-   description="This detection fires at step 3. Update to reflect where your detection sits in the attack chain."
-%}
+<!-- Create as SVG in docs/assets/img/posts/{slug}-attack-flow.svg -->
+<!-- Replace the image path with your SVG filename -->
+<!-- ![Detection Point in Attack Chain]({{ '/assets/img/posts/{slug}-attack-flow.svg' | relative_url }}) -->
 
 ## Detection Logic
 

@@ -1,0 +1,58 @@
+<svg viewBox="0 0 940 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead-tycoon" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#555"/>
+    </marker>
+  </defs>
+  <style>
+    .box { rx: 8; ry: 8; stroke-width: 2; }
+    .box-text { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 11px; fill: #fff; text-anchor: middle; }
+    .box-icon { font-size: 22px; text-anchor: middle; }
+    .arrow { stroke: #555; stroke-width: 2; fill: none; marker-end: url(#arrowhead-tycoon); }
+    .step-num { font-family: 'JetBrains Mono', monospace; font-size: 9px; fill: rgba(255,255,255,0.6); text-anchor: middle; }
+  </style>
+
+  <!-- Step 1: Phishing Email -->
+  <rect class="box" x="20" y="30" width="150" height="90" fill="#e74c3c" opacity="0.9" stroke="#e74c3c"/>
+  <text class="box-icon" x="95" y="62">✉️</text>
+  <text class="box-text" x="95" y="85">Phishing Email</text>
+  <text class="step-num" x="95" y="110">STEP 1</text>
+
+  <!-- Arrow 1 -->
+  <line class="arrow" x1="172" y1="75" x2="198" y2="75"/>
+
+  <!-- Step 2: Reverse Proxy Page -->
+  <rect class="box" x="200" y="30" width="150" height="90" fill="#e67e22" opacity="0.9" stroke="#e67e22"/>
+  <text class="box-icon" x="275" y="62">🌐</text>
+  <text class="box-text" x="275" y="85">Reverse Proxy</text>
+  <text class="step-num" x="275" y="110">STEP 2</text>
+
+  <!-- Arrow 2 -->
+  <line class="arrow" x1="352" y1="75" x2="378" y2="75"/>
+
+  <!-- Step 3: Credential + MFA Capture -->
+  <rect class="box" x="380" y="30" width="150" height="90" fill="#e74c3c" opacity="0.9" stroke="#e74c3c"/>
+  <text class="box-icon" x="455" y="62">🔓</text>
+  <text class="box-text" x="455" y="79">Credential +</text>
+  <text class="box-text" x="455" y="93">MFA Capture</text>
+  <text class="step-num" x="455" y="110">STEP 3</text>
+
+  <!-- Arrow 3 -->
+  <line class="arrow" x1="532" y1="75" x2="558" y2="75"/>
+
+  <!-- Step 4: Token Replay -->
+  <rect class="box" x="560" y="30" width="150" height="90" fill="#e67e22" opacity="0.9" stroke="#e67e22"/>
+  <text class="box-icon" x="635" y="62">🔑</text>
+  <text class="box-text" x="635" y="85">Token Replay</text>
+  <text class="step-num" x="635" y="110">STEP 4</text>
+
+  <!-- Arrow 4 -->
+  <line class="arrow" x1="712" y1="75" x2="738" y2="75"/>
+
+  <!-- Step 5: Mailbox Compromise -->
+  <rect class="box" x="740" y="30" width="170" height="90" fill="#e67e22" opacity="0.9" stroke="#e67e22"/>
+  <text class="box-icon" x="825" y="62">📧</text>
+  <text class="box-text" x="825" y="85">Mailbox</text>
+  <text class="box-text" x="825" y="99">Compromise</text>
+  <text class="step-num" x="825" y="110">STEP 5</text>
+</svg>

@@ -18,13 +18,9 @@ tagline: "One-line description shown on the Tools index page."
 ## Architecture
 
 <!-- STANDARD VISUAL: Tool data flow diagram -->
-{% include attack-flow.html
-   title="Data Flow"
-   steps="Input Source|Processing|Analysis Engine|Output"
-   colors="var(--accent)|#3498db|#3498db|var(--accent)"
-   icons="📥|⚙️|🔍|📊"
-   description="Update with the actual data flow of your tool."
-%}
+<!-- Create as SVG in docs/assets/img/posts/{slug}-architecture.svg -->
+<!-- Replace the image path with your SVG filename -->
+<!-- ![Data Flow]({{ '/assets/img/posts/{slug}-architecture.svg' | relative_url }}) -->
 
 ## Quick Start
 

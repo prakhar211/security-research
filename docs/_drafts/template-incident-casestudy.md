@@ -22,23 +22,15 @@ severity: high    # critical | high | medium | low
 
 ## Attack Flow
 
-<!-- STANDARD VISUAL: Attack flow diagram — update steps/colors/icons per investigation -->
-{% include attack-flow.html
-   title="Attack Flow"
-   steps="Initial Access|Execution|Persistence|Lateral Movement|Impact"
-   colors="#e74c3c|#e67e22|#e67e22|#e67e22|#e74c3c"
-   icons="✉️|⚙️|🔒|↔️|💥"
-   description="Update this with the actual attack chain from your investigation."
-%}
+<!-- STANDARD VISUAL: Attack flow diagram — create as SVG in docs/assets/img/posts/{slug}-attack-flow.svg -->
+<!-- Replace the image path and alt text with your SVG filename and title -->
+<!-- ![Attack Flow]({{ '/assets/img/posts/{slug}-attack-flow.svg' | relative_url }}) -->
 
 ## Attack Timeline
 
-<!-- STANDARD VISUAL: Timeline graphic — update events per investigation -->
-{% include timeline-visual.html
-   title="Investigation Timeline"
-   events="HH:MM UTC: Initial access observed|HH:MM UTC: Persistence established|HH:MM UTC: Lateral movement detected|HH:MM UTC: Containment actions taken|HH:MM UTC: Remediation complete"
-   highlights="0|3"
-%}
+<!-- STANDARD VISUAL: Timeline graphic — create as SVG in docs/assets/img/posts/{slug}-timeline.svg -->
+<!-- Replace the image path and alt text with your SVG filename and title -->
+<!-- ![Investigation Timeline]({{ '/assets/img/posts/{slug}-timeline.svg' | relative_url }}) -->
 
 | Time (UTC)   | Event                          | Data Source         |
 |--------------|--------------------------------|---------------------|
