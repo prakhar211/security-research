@@ -1,0 +1,781 @@
+{
+  "type": "bundle",
+  "id": "bundle--c4a5f987-4421-49d4-a321-80d4dee361f0",
+  "objects": [
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--ad4f1f11-3a94-4dbe-980f-bde1f95d1ee4",
+      "value": "https://ift.tt/ryMBOE6"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4e6e9550-04c6-495b-a5c7-c312406731d8",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/ryMBOE6",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/248136",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/ryMBOE6']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--3e1e3642-09a7-4aaa-94e2-ad52579470a0",
+      "value": "https://ift.tt/NC3rwPa"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f31aaf05-4185-455e-aeb4-af6eff018600",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/NC3rwPa",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/247621",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/NC3rwPa']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--cbe214ad-0df9-46b5-93d5-37b056e3c16e",
+      "value": "https://ift.tt/od6ckx2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6557bb70-579d-429e-8f36-a1e67068178f",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/od6ckx2",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/246616",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/od6ckx2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--83a5bac9-2b90-466b-bc2a-c029fc251550",
+      "value": "https://ift.tt/fWI4MsP"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0c8ef811-a3ce-4734-b8c9-08e3ebb73691",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/fWI4MsP",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/246615",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/fWI4MsP']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--518a12ea-ba5f-465c-b57b-932f38366ee0",
+      "value": "https://ift.tt/gnDPxV9"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a30d6df5-0891-4d2c-8cba-991f48dcc45f",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/gnDPxV9",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/243956",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/gnDPxV9']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--f5a1ce9b-9958-43f6-a71b-1d54b71bb296",
+      "value": "https://ift.tt/XA9bikc"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--87aa9f07-a40c-49ed-b8e8-ea172e847088",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/XA9bikc",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/233794",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/XA9bikc']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--5eb4f01e-ebd6-452f-8874-d6e0d2c9126d",
+      "value": "https://ift.tt/MmOva7S"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3bc4a1f2-4a7c-4ea7-ac96-b30ff10ff98e",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/MmOva7S",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/233764",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/MmOva7S']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--fbbbd5bf-8018-41e1-9c15-a67c3859dbaa",
+      "value": "https://ift.tt/eglPD84"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--968bf476-d27e-4fe0-9d3c-1f92cb37bcee",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/eglPD84",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249417",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/eglPD84']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--af7f292b-c0f4-4e24-8c67-25d12de17fc6",
+      "value": "https://ift.tt/jgwZRVB"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5a6bb80d-27c6-4f8a-9f3d-786ba727fdc4",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/jgwZRVB",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249398",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/jgwZRVB']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--ba63be81-5618-4d99-9dfe-81619e11cdd3",
+      "value": "https://ift.tt/bLTJsB7"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0307376a-9403-4a11-b3bf-8194d1dbe386",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/bLTJsB7",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249374",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/bLTJsB7']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--dd21b794-a0cc-4d12-95f6-1a20c6f156b3",
+      "value": "https://ift.tt/5xKj7BV"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5315ef34-3add-4943-be1d-7d61e1c7e7c0",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/5xKj7BV",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249345",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/5xKj7BV']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--b24c7372-91ca-45f1-8bf4-c8161b6bb9f9",
+      "value": "https://ift.tt/KN7DEdz"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b72e6f58-7cb1-4c92-917c-daa035b9f7ff",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/KN7DEdz",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249330",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/KN7DEdz']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--1d4b4acf-0d72-42fb-a35f-623d17d7d50f",
+      "value": "https://ift.tt/DTJBFQH"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f8b6f807-4c1f-456d-ae68-73e54f3281e4",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/DTJBFQH",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249324",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/DTJBFQH']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--ca9dc308-a118-4244-96eb-f6b0514bd598",
+      "value": "https://ift.tt/mMdwXnp"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--54f81118-8144-4797-b85e-a42886b7657d",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/mMdwXnp",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249320",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/mMdwXnp']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--0f6c96ba-5728-4f6f-9149-e799890ada0b",
+      "value": "https://ift.tt/5qct12s"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--34a183cc-f646-4d54-8913-d07c0fdfeaf4",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/5qct12s",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249316",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/5qct12s']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--8f19dc5d-413c-4fdc-bab1-ad39d2bee510",
+      "value": "https://ift.tt/63oJuwj"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9d6ed39e-d487-4bc4-89ee-3c43ddb778c3",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/63oJuwj",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249314",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/63oJuwj']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--7f9c4075-75ac-4b18-91af-3b0a6b7341ee",
+      "value": "https://ift.tt/bYsxZU3"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--77ff8d14-3247-4bfc-a77d-9cd60db09951",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/bYsxZU3",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249163",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/bYsxZU3']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--acb18067-5c97-45ee-b96d-8f159de1549d",
+      "value": "https://ift.tt/fr7byTe"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--894433df-f52c-47e0-8979-68bea8566cbd",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/fr7byTe",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249142",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/fr7byTe']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--23413ac7-eb45-434b-b32c-edcc7f5b62cc",
+      "value": "https://ift.tt/djeqIWA"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c1596546-178d-47ad-989e-d5e7c1ebff98",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/djeqIWA",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249142",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/djeqIWA']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--90550a4a-d902-4031-9ba2-096ecb1ef8f6",
+      "value": "https://ift.tt/gZtKSmC"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--735821db-0c0e-4ddc-b09c-46f127f9d4fc",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/gZtKSmC",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249114",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/gZtKSmC']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--621f38c0-771c-482e-9e01-d47b531d0d1a",
+      "value": "https://ift.tt/qgOYZDV"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--adaada4d-0094-4ba2-8212-ef6cc2b5cc11",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/qgOYZDV",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249105",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/qgOYZDV']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--80d61fbd-ec77-4ce4-9c52-308599b89937",
+      "value": "https://ift.tt/OtcKIQh"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a0a58933-a5ef-4ca5-84d0-9f5c3e9db60d",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/OtcKIQh",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249104",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/OtcKIQh']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--eb40b166-53a3-45e4-ba74-66f2e82d9688",
+      "value": "https://ift.tt/7HOs6Xg"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a412d77b-150d-4771-82c2-cf820e37a933",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/7HOs6Xg",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249063",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/7HOs6Xg']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--27b9b553-e8d7-4111-a7ea-54d1e8af574e",
+      "value": "https://ift.tt/6A9gkVC"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--11419bc1-6666-4222-9960-c30008da6020",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/6A9gkVC",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249023",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/6A9gkVC']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--fbae2099-657e-4bcb-a2eb-d2a223e3e53b",
+      "value": "https://ift.tt/JGSFs26"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0874dab2-80de-43f6-83b3-20c583c821b0",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/JGSFs26",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/249001",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/JGSFs26']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--26f92bd7-d535-4734-b81c-fe84b8d09241",
+      "value": "https://ift.tt/arsy4pI"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bb053599-6ec5-4dbd-b1d6-34d57956ad4e",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/arsy4pI",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/248978",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/arsy4pI']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--33a15e4b-6925-4d5f-abff-d88e75b9785c",
+      "value": "https://ift.tt/sUHDtfP"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--40031a87-64fe-4444-a369-f2ead250ee44",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/sUHDtfP",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/248967",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/sUHDtfP']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--46c8b008-14fc-4d37-b357-6df2949243f7",
+      "value": "https://ift.tt/bL6G4hP"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c13edc16-a400-4454-8c9c-75161cb5ab0d",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/bL6G4hP",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/248957",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/bL6G4hP']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--09333b24-9e62-47e5-bc7b-17027b9798c3",
+      "value": "https://ift.tt/2j64ltb"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--80cf7abf-65cd-43c1-91af-be3d77afad21",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/2j64ltb",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/248948",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/2j64ltb']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--51f78767-7b77-4715-9057-278ab570f854",
+      "value": "https://ift.tt/nyh51Jc"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--605359a3-24c2-439a-9d2e-01393f65ec23",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/nyh51Jc",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/248891",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/nyh51Jc']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--25c80aa7-0bc1-4dd4-adcc-ca3f8849ff9f",
+      "value": "https://ift.tt/eqilUpY"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--596c17b5-8135-4868-be89-5b7ae0419550",
+      "created": "2026-04-28T05:19:40.000Z",
+      "modified": "2026-04-28T05:19:40.000Z",
+      "name": "URL: hxxps://ift[.]tt/eqilUpY",
+      "description": "Extracted from threat intel scrape — campaign: search-EvilTokens-Tycoon2FA-Phishing. Source: https://t.me/ctinow/248887",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/eqilUpY']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:19:40.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-EvilTokens-Tycoon2FA-Phishing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+type,indicator,context,source
+domain,singer-bodners-bau-at-s-account[.]workers[.]dev,EvilTokens phishing page hosting,Sekoia TDR
+domain,dibafef289[.]workers[.]dev,EvilTokens phishing page hosting,Sekoia TDR
+url,/api/device/start,EvilTokens device code initiation endpoint,Sekoia TDR
+url,/api/device/status/*,EvilTokens authentication polling endpoint,Sekoia TDR
+domain,login[.]microsoftonline[.]com/common/oauth2/v2.0/devicecode,Legitimate Microsoft endpoint abused in device code flow,Microsoft
+domain,microsoft[.]com/devicelogin,Legitimate Microsoft device login page used in social engineering,Microsoft

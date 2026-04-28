@@ -1,0 +1,1031 @@
+{
+  "type": "bundle",
+  "id": "bundle--346b840e-78bb-464a-8517-ce82e2d03645",
+  "objects": [
+    {
+      "type": "domain-name",
+      "spec_version": "2.1",
+      "id": "domain-name--18f01578-509f-44cc-89ba-9ef6779a6d23",
+      "value": "socket.dev"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--67ec8c62-d552-42af-9e41-389d39eb7f82",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "DOMAIN: socket[.]dev",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://nitter.net/SocketSecurity/status/2048075097324577156#m",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'socket.dev']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--909458ff-36a6-4906-b06e-38053447f4a2",
+      "value": "https://nitter.net/GergelyOrosz/status/2044153474410029475#m"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3e19b594-7719-4137-ad9b-3cbc3a080e6e",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://nitter[.]net/GergelyOrosz/status/2044153474410029475#m",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://nitter.net/SocketSecurity/status/2048075097324577156#m",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://nitter.net/GergelyOrosz/status/2044153474410029475#m']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--a9325f82-6835-4a86-b3be-31ec09fc509e",
+      "value": "https://nitter.net/sarahgooding/status/2047354855614742535#m"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1ba8796f-969c-4129-8af8-041e15e91858",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://nitter[.]net/sarahgooding/status/2047354855614742535#m",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://nitter.net/feross/status/2047411453783941574#m",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://nitter.net/sarahgooding/status/2047354855614742535#m']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "spec_version": "2.1",
+      "id": "domain-name--3bdc4c3d-0eac-426c-a7a5-40258794577d",
+      "value": "community.bitwarden.com"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--434bc7ce-2b8a-4606-8d83-a2331fa6222d",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "DOMAIN: community[.]bitwarden[.]com",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://nitter.net/feross/status/2047410651417731425#m",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'community.bitwarden.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--bf3b4fd8-c726-4e5f-a3c8-b3dd1f31cbf7",
+      "value": "https://nitter.net/Bitwarden/status/2047348108128866438#m"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c4e8c70c-b68f-43ef-b039-262230fce149",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://nitter[.]net/Bitwarden/status/2047348108128866438#m",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://nitter.net/feross/status/2047410651417731425#m",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://nitter.net/Bitwarden/status/2047348108128866438#m']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--15301ff3-8046-44f7-af7e-bf60a855a08d",
+      "value": "https://nitter.net/SocketSecurity/status/2047304112560115930#m"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6e39d6ae-1276-4582-af4c-972187f439e7",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://nitter[.]net/SocketSecurity/status/2047304112560115930#m",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://nitter.net/feross/status/2047409580683198595#m",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://nitter.net/SocketSecurity/status/2047304112560115930#m']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "spec_version": "2.1",
+      "id": "domain-name--d99d4a0d-3e71-4256-b5b4-05eb44af0a41",
+      "value": "thehackernews.com"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ebcf7fd5-b5f7-4172-86bd-a73d19b0162f",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "DOMAIN: thehackernews[.]com",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://nitter.net/TheHackersNews/status/2047354534838861835#m",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'thehackernews.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--d21b437f-1dc0-4997-875f-9a7004dea119",
+      "value": "https://nitter.net/TheHackersNews/status/2047012046227780090#m"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--767e5ebb-eeb4-4eaf-8afe-1e015fead47b",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://nitter[.]net/TheHackersNews/status/2047012046227780090#m",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://nitter.net/TheHackersNews/status/2047354534838861835#m",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://nitter.net/TheHackersNews/status/2047012046227780090#m']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--521cf2b1-929c-4b58-be21-15aa8658770d",
+      "value": "https://nitter.net/feross/status/2047307111378354367#m"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1b4a5129-c8b1-4510-afc5-67f80010a8a8",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://nitter[.]net/feross/status/2047307111378354367#m",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://nitter.net/sarahgooding/status/2047354855614742535#m",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://nitter.net/feross/status/2047307111378354367#m']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--1cc6e611-d41e-4ee4-aa0f-ec4ab0c6aefd",
+      "value": "https://ift.tt/L2QX0Fq"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--cd3dfeb1-e1b3-4469-8ce4-82428584750d",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/L2QX0Fq",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/248489",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/L2QX0Fq']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--cc53a2d7-f141-4888-81f2-780f2ea6968e",
+      "value": "https://ift.tt/2v9w4Dn"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--57b4954c-e9c7-4b08-9b74-acb7ac0194fd",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/2v9w4Dn",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/248282",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/2v9w4Dn']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--402f2ecc-96bd-49da-88eb-07c8e20cd582",
+      "value": "https://ift.tt/8LjNRSo"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a1c7a2e4-79e9-4a71-8050-33bee285417f",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/8LjNRSo",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/248049",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/8LjNRSo']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--4726c466-7e9f-4ecd-b84b-d784f6f5a55f",
+      "value": "https://ift.tt/NLsOdzC"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--400ab8bd-bd8f-42dc-9727-5f2e3a63e444",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/NLsOdzC",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247855",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/NLsOdzC']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--09bd451f-294f-495b-97d2-8f6d07f7a188",
+      "value": "https://ift.tt/adtiKGg"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--eee9d089-98bd-4926-a3d1-558beafa0e1d",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/adtiKGg",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247786",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/adtiKGg']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--8ce620c6-1d38-4141-b06d-7d6652b99957",
+      "value": "https://ift.tt/8gTw6G7"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--604eff7b-673c-4bd4-8475-5474946ba3ef",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/8gTw6G7",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247766",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/8gTw6G7']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--08a2bce9-b8a1-4ab7-90cb-278b740aa6e3",
+      "value": "https://ift.tt/j3wq7aI"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--598cc91e-f4b2-4ead-a4e0-602765d26b46",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/j3wq7aI",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247766",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/j3wq7aI']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--4992bdf5-a1f1-41f1-93df-1933c2b9dc32",
+      "value": "https://ift.tt/l8AYwyP"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d81e02a6-9f34-4cd2-a356-e4d45487f296",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/l8AYwyP",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247719",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/l8AYwyP']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--50dfbdf5-0249-4b62-9eb7-56174fa20cc6",
+      "value": "https://ift.tt/kiKImGb"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--28d3c086-7f2f-403d-be0b-930420ad7460",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/kiKImGb",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247708",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/kiKImGb']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--2b8f9e92-c208-4502-82d3-fff219c45560",
+      "value": "https://ift.tt/Dgp5UOj"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fed18ef2-f010-432d-a2d6-8a3af3392649",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/Dgp5UOj",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247699",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/Dgp5UOj']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--67521085-24e8-4783-b52c-96fd56b95cab",
+      "value": "https://ift.tt/Tp2ekBO"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--be314ca2-d146-4db5-ae16-2cf32573ee28",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/Tp2ekBO",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247699",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/Tp2ekBO']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--346cb104-a454-4e1b-8317-e0ac383910ce",
+      "value": "https://ift.tt/MV6NCKW"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f5c969c7-8b63-4c38-8030-7151aa5419b4",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/MV6NCKW",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247698",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/MV6NCKW']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--bbad655f-e6f1-4bb8-9e9a-980f355b5e4d",
+      "value": "https://ift.tt/VcglM6a"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f26639d7-75cb-45e4-9392-f104d43ee69f",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/VcglM6a",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247694",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/VcglM6a']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--60c67654-6f93-4999-b1c8-6bee532f961d",
+      "value": "https://ift.tt/VaxNdXR"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5d180a26-a754-43f1-a528-c00e7a18a59b",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/VaxNdXR",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247688",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/VaxNdXR']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--91f3f364-2791-405d-a28a-ab5429c0f3e4",
+      "value": "https://ift.tt/HYnWI1X"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--96cf430a-65da-423a-a55f-cb7ee00e0d0c",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/HYnWI1X",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247682",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/HYnWI1X']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--94cfa88e-7a4f-4a32-bcb9-003e8a19986f",
+      "value": "https://ift.tt/uIzKXEH"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1dbba45e-e8d0-4e47-9765-2958d0b0e486",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/uIzKXEH",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247623",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/uIzKXEH']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--c9110898-79ce-400f-89a9-89b40c2e2f8f",
+      "value": "https://ift.tt/XbTwe3c"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e1e7e520-7997-4076-93c9-cae539c36927",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/XbTwe3c",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247610",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/XbTwe3c']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--d36ab20b-e601-4218-acea-d5aca84f49d7",
+      "value": "https://ift.tt/T82PreH"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--622c1313-bb57-417d-85d8-612dd0669c1a",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/T82PreH",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247594",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/T82PreH']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--256c4c04-6cc2-4e39-a6bd-7e42d050a4f7",
+      "value": "https://ift.tt/YOFH94t"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--aa039750-af3f-4704-bd1a-e6814ad2094a",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/YOFH94t",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247584",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/YOFH94t']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--cdb48bd1-99b0-4eab-a073-050e8f460ee2",
+      "value": "https://ift.tt/JZhxME9"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ab3df4df-6bdd-40c2-968a-34aee9f05a2d",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/JZhxME9",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247562",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/JZhxME9']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--9a930f32-e7c7-49db-a65b-88a0175b20d1",
+      "value": "https://ift.tt/oOzjnTD"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b21f05aa-bfb1-4016-9ffa-bb6a7510e471",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/oOzjnTD",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247530",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/oOzjnTD']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--4213ef24-df2d-418d-aff6-9df6e1f3a356",
+      "value": "https://ift.tt/D4v3Ask"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1a972287-96f8-4c81-aef9-f9d6587a3140",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/D4v3Ask",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247519",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/D4v3Ask']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--9c74f40b-5f4c-4991-a0f3-f1363c1f81d2",
+      "value": "https://ift.tt/heCsVx2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--440d96b7-0c82-44b5-a481-558929c7d784",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/heCsVx2",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/247508",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/heCsVx2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--71a176ba-822f-48b0-94c7-84edb03e0fcb",
+      "value": "https://ift.tt/UHV7Eua"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--df0058af-95b3-490b-9e63-1a631829a9d9",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/UHV7Eua",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/147984",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/UHV7Eua']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--ca0ddf44-3319-4518-984c-ed612e26faa4",
+      "value": "https://ift.tt/cnKV6pi"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c54873c6-b021-4ce9-a661-01149cecb018",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/cnKV6pi",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/147635",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/cnKV6pi']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--ca77177c-26f7-4b33-a43f-dbe6897a2300",
+      "value": "https://ift.tt/Mp2s14Q"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--486e3cbd-d385-4d67-a48a-ce308ffffc80",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/Mp2s14Q",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/249399",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/Mp2s14Q']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--f034c637-473d-44db-926b-5b623abae04f",
+      "value": "https://ift.tt/lDrnXxo"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--755dbb2d-3fa9-4bb1-a646-0e1fce7bd589",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/lDrnXxo",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/249370",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/lDrnXxo']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--a47226c9-6bd6-4031-8cd0-7278f42c282f",
+      "value": "https://ift.tt/5pb0lMv"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a9fd5152-a15a-48eb-bc1e-88618b039a0d",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/5pb0lMv",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/249302",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/5pb0lMv']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--bec89666-47ff-4713-bc80-a0061ff54476",
+      "value": "https://ift.tt/a8yWtzB"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--099ef8a4-a0e8-49b9-8156-6dedbe320427",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/a8yWtzB",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/249299",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/a8yWtzB']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--89fc2d19-b6a0-4b83-99d0-d4667adbebcb",
+      "value": "https://ift.tt/1LrgcTI"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b62f6819-f13b-4186-a098-30c318b5137d",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/1LrgcTI",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/249297",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/1LrgcTI']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--e163de18-ec2d-406e-87c2-0c55eed6c3e3",
+      "value": "https://ift.tt/PL5DJ2z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4073002e-41a9-4bb7-83e3-8b248d52b217",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/PL5DJ2z",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/249271",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/PL5DJ2z']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--4468d70a-229d-4768-9c70-fb5006ac7e83",
+      "value": "https://ift.tt/EOL5atd"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6555ae1e-59c5-404d-8d10-72664224a008",
+      "created": "2026-04-28T05:09:28.000Z",
+      "modified": "2026-04-28T05:09:28.000Z",
+      "name": "URL: hxxps://ift[.]tt/EOL5atd",
+      "description": "Extracted from threat intel scrape — campaign: search-trivy-supply_chain. Source: https://t.me/ctinow/249265",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/EOL5atd']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:09:28.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-trivy-supply_chain"
+      ]
+    }
+  ]
+}

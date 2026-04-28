@@ -1,0 +1,118 @@
+# ============================================================
+# Threat Intel Scraper — Configuration
+# ============================================================
+# Copy this file to config.local.yaml and fill in your API keys.
+# config.local.yaml is gitignored — never commit credentials.
+# ============================================================
+
+# Campaign name for this scrape run (used in filenames and reports)
+campaign: "daily-intel"
+
+# Output directories (relative to repo root)
+output:
+  iocs_dir: "../../iocs"              # repo-root iocs/ directory
+  blog_data_dir: "../../docs/_data/iocs"  # blog IOC tables
+  drafts_dir: "../../docs/_drafts"    # blog draft posts
+  archive_dir: "./output/archive"     # raw JSON archives
+  reports_dir: "./output/reports"     # markdown summaries
+
+# --- Platform configurations ---
+
+twitter:
+  mode: "nitter"                      # "api" or "nitter"
+  bearer_token: ""                    # Twitter API v2 Bearer Token
+  nitter_instances:                   # auto-cycles until one works
+    - "https://nitter.privacydev.net"
+    - "https://nitter.poast.org"
+    - "https://nitter.1d4.us"
+    - "https://nitter.kavin.rocks"
+    - "https://nitter.unixfox.eu"
+    - "https://nitter.net"
+  accounts:
+    # Security researchers & threat intel accounts
+    - GossiTheDog                     # Kevin Beaumont
+    - MsftSecIntel                    # Microsoft Threat Intelligence
+    - ShadowServerFdn                 # Shadowserver Foundation
+    - Unit42_Intel                    # Palo Alto Unit 42
+    - RedDrip7                        # RedDrip Team
+    - _JohnHammond                    # John Hammond
+    - SwiftOnSecurity                 # Swift on Security
+    # Add your own accounts below:
+    # - username
+
+telegram:
+  api_id: null                        # Get from https://my.telegram.org/apps
+  api_hash: ""
+  phone: ""                           # For first-time authentication
+  session_name: "ti_scraper"
+  accounts:
+    # Public threat intel channels (verify these exist before adding)
+    - ctinow                          # Cyber Threat Intel Now
+    - exploitin                       # Exploit.in News
+    - caboroncyber                    # Cab0ron Cyber (verify username)
+    # Add your own channels below:
+    # - channel_username
+
+reddit:
+  client_id: ""                       # Get from https://www.reddit.com/prefs/apps
+  client_secret: ""
+  user_agent: "threat-intel-scraper/1.0"
+  sort: "new"
+  time_filter: "week"
+  accounts:                           # Subreddits to monitor
+    - netsec
+    - blueteam
+    - malware
+    - cybersecurity
+    - ReverseEngineering
+  users: []                           # Specific users to follow
+
+linkedin:
+  mode: "rss"                         # "rss" or "manual"
+  feeds:                              # RSS feeds from third-party services
+    # Example:
+    # - url: "https://rss.app/feeds/your-feed-id.xml"
+    #   label: "Security Researcher Name"
+    []
+  manual_dir: "./linkedin_exports"
+  accounts: []                        # Profile names for reference only
+
+# --- IOC Feed Platforms (no social media auth needed) ---
+
+tweetfeed:
+  enabled: true
+  time_period: "month"                # today, week, month, year
+  tags: []                            # filter by tag: phishing, cobaltstrike, emotet, etc.
+  types: []                           # filter by IOC type: ip, url, domain, md5, sha256
+
+threatfox:
+  enabled: true
+  api_key: ""                         # optional — get free key at https://threatfox.abuse.ch/api/
+  days_lookback: 7                    # fetch IOCs from last N days
+  malware_families: []                # filter: ["Cobalt Strike", "Tycoon2FA", "Emotet"]
+  ioc_types: []                       # filter: ["ip:port", "domain", "url", "md5", "sha256"]
+
+# --- Extraction settings ---
+
+extraction:
+  # IOC types to extract (comment out to skip)
+  ioc_types:
+    - ipv4
+    - ipv6
+    - domain
+    - url
+    - email
+    - md5
+    - sha1
+    - sha256
+    - cve
+  # Minimum MITRE ATT&CK confidence to include
+  mitre_min_confidence: "medium"      # low, medium, high
+  # Filter to only security-related posts before extraction
+  filter_security: true
+
+# --- General settings ---
+
+logging:
+  level: "INFO"                       # DEBUG, INFO, WARNING, ERROR
+  file: "./output/scraper.log"

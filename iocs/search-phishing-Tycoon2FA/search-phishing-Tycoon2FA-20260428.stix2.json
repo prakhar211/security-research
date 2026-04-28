@@ -1,0 +1,956 @@
+{
+  "type": "bundle",
+  "id": "bundle--3bd8dfc0-d544-4023-8e4a-3ac683642f2c",
+  "objects": [
+    {
+      "type": "domain-name",
+      "spec_version": "2.1",
+      "id": "domain-name--0945d2fd-4db2-41e5-80f4-e71b5e068205",
+      "value": "on-sohu.com"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--af1ae943-0f07-449c-b005-267ffa2bb3bd",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "DOMAIN: on-sohu[.]com",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/40414/status/2038060624442441954",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'on-sohu.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--969bc0c9-dfd7-4be4-8e51-bef0791be56b",
+      "value": "https://x.com/40414/status/2038060624442441954"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--62c6b6b8-a4df-4d3b-a41f-6e17200699a9",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://x[.]com/40414/status/2038060624442441954",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/40414/status/2038060624442441954",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://x.com/40414/status/2038060624442441954']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--422b9e1c-f128-4b45-aa7b-78fc8c3e39de",
+      "value": "https://on-sohu.com"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--97100167-1033-48ea-8fd2-edc8dd59bc71",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://on-sohu[.]com",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/40414/status/2038060624442441954",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://on-sohu.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--dcd5e386-75b0-430b-bbad-3c889ed4926e",
+      "value": "34.122.137.206"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--58571948-4b24-463b-ae85-dc1df33a06b9",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "IPV4: 34[.]122[.]137[.]206",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/40414/status/2038060624442441954",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '34.122.137.206']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "spec_version": "2.1",
+      "id": "domain-name--dedfada6-f421-4f28-b12a-5974d44dcb37",
+      "value": "telegramnco.com"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ab7e337c-4ae7-4b85-a512-0a50d52a63c5",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "DOMAIN: telegramnco[.]com",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/PhishStats/status/2038084600870674647",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'telegramnco.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--cd9df547-c7c8-4fa6-971f-5caf8559f00c",
+      "value": "https://x.com/PhishStats/status/2038084600870674647"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f916c388-e224-403e-a654-2fb214cbd8ba",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://x[.]com/PhishStats/status/2038084600870674647",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/PhishStats/status/2038084600870674647",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://x.com/PhishStats/status/2038084600870674647']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--d0c83b91-3b5e-4678-8cec-14f2dc76a0e4",
+      "value": "http://telegramnco.com"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f5163f6b-570d-43b8-82a5-5ce9d9a442eb",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxp://telegramnco[.]com",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/PhishStats/status/2038084600870674647",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'http://telegramnco.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--d562d3c6-6bee-4d2f-ab39-5e752c50ecc6",
+      "value": "172.67.198.125"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7dc06f01-e646-46c4-a774-5bdd865cd68e",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "IPV4: 172[.]67[.]198[.]125",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/PhishStats/status/2038084600870674647",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '172.67.198.125']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "spec_version": "2.1",
+      "id": "domain-name--e8255514-1d94-4382-b383-446af2059717",
+      "value": "globallinknext.com"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4674cfda-3fc4-42df-9127-589c73df5163",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "DOMAIN: globallinknext[.]com",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/PhishStats/status/2038220731259998504",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'globallinknext.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--242ab449-d7b2-446a-b7b6-865b02518c38",
+      "value": "https://x.com/PhishStats/status/2038220731259998504"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c2d12174-278c-464e-acd7-e380cc43009e",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://x[.]com/PhishStats/status/2038220731259998504",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/PhishStats/status/2038220731259998504",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://x.com/PhishStats/status/2038220731259998504']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--d42e674a-4ad1-417e-b664-e11a585b0143",
+      "value": "https://globallinknext.com/Rogue_cu/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d456a1e8-2f29-484a-a9c3-dc33cdf76618",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://globallinknext[.]com/Rogue_cu/",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/PhishStats/status/2038220731259998504",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://globallinknext.com/Rogue_cu/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--1f26ddd6-0f0e-464c-9377-481691a7e435",
+      "value": "130.250.213.69"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--de0991ca-f34e-4024-a5ba-349c88b94f34",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "IPV4: 130[.]250[.]213[.]69",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/PhishStats/status/2038220731259998504",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '130.250.213.69']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "spec_version": "2.1",
+      "id": "domain-name--9f4da160-1b4b-4d6d-ba97-a5705dae36a1",
+      "value": "szds-media.cn"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fa7ebb91-fe94-4c7b-b7af-53caf8f6fcda",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "DOMAIN: szds-media[.]cn",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/harugasumi/status/2038238874791813441",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'szds-media.cn']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--bb438093-1793-451a-a28c-803dd0d75e09",
+      "value": "https://x.com/harugasumi/status/2038238874791813441"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ce7e8198-7500-4914-915e-6729a54cbc5a",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://x[.]com/harugasumi/status/2038238874791813441",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/harugasumi/status/2038238874791813441",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://x.com/harugasumi/status/2038238874791813441']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--47feb059-77a9-45c1-ae8f-194ca198a083",
+      "value": "https://szds-media.cn/?ticket=cbzhzmvctn"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--67f64906-176d-4b5e-b86a-fc19215036a6",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://szds-media[.]cn/?ticket=cbzhzmvctn",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/harugasumi/status/2038238874791813441",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://szds-media.cn/?ticket=cbzhzmvctn']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "spec_version": "2.1",
+      "id": "domain-name--773e62ac-9ee1-47e5-8277-5b3b2df2a32a",
+      "value": "cxcdgl.cn"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e07877ca-a8b4-4cd5-8e55-425669740bbd",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "DOMAIN: cxcdgl[.]cn",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/harugasumi/status/2038238874791813441",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'cxcdgl.cn']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--4b78e2dc-c0f0-4849-9ab7-60127d7b3016",
+      "value": "https://cxcdgl.cn"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c3473de3-4ccc-425b-bdbe-75d5feca07fd",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://cxcdgl[.]cn",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/harugasumi/status/2038238874791813441",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://cxcdgl.cn']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "spec_version": "2.1",
+      "id": "domain-name--64ab744d-e628-44df-a403-7c75a0575968",
+      "value": "phwtbx.cn"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3fd9eab5-3ac4-4ecc-84a2-903910a14846",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "DOMAIN: phwtbx[.]cn",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/harugasumi/status/2038238874791813441",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'phwtbx.cn']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--782f8dce-938f-411e-b348-449a2b9ddfef",
+      "value": "https://phwtbx.cn/a1/g2/das=letiantiaos/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6cad1bab-11ed-465d-99a2-c5136722c1d5",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://phwtbx[.]cn/a1/g2/das=letiantiaos/",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/harugasumi/status/2038238874791813441",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://phwtbx.cn/a1/g2/das=letiantiaos/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--e99ae131-7fd3-450e-8b41-355f824df9b8",
+      "value": "43.153.162.95"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d8b75e36-6fbe-4cdf-b211-a414393ea1fe",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "IPV4: 43[.]153[.]162[.]95",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/harugasumi/status/2038238874791813441",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '43.153.162.95']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "spec_version": "2.1",
+      "id": "domain-name--9e871428-7f0a-4f1c-b139-8f31e5351b6c",
+      "value": "wslljk.cn"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bed2ded2-9b4f-4699-b96b-0ccb9b841662",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "DOMAIN: wslljk[.]cn",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/harugasumi/status/2038239077863133463",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'wslljk.cn']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--c7cd7c51-ba4b-483c-b742-2edd36e01d9e",
+      "value": "https://x.com/harugasumi/status/2038239077863133463"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e4548b69-ff56-4db4-9d71-4e07a92cbca6",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://x[.]com/harugasumi/status/2038239077863133463",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/harugasumi/status/2038239077863133463",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://x.com/harugasumi/status/2038239077863133463']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--c840bf68-7915-40da-aa55-b17e8943b51e",
+      "value": "https://wslljk.cn/d1/f2/awws=letiansw/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2cc59784-e7b0-4ae5-868d-bf11d334958a",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://wslljk[.]cn/d1/f2/awws=letiansw/",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/harugasumi/status/2038239077863133463",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://wslljk.cn/d1/f2/awws=letiansw/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "spec_version": "2.1",
+      "id": "domain-name--cd4cfa84-4ccf-49c9-b0b2-0dbe8ddf7b70",
+      "value": "pkkghs.cn"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3c0d8a42-ffb1-4420-8aeb-94af7589481d",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "DOMAIN: pkkghs[.]cn",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/harugasumi/status/2038239077863133463",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'pkkghs.cn']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--09fbd3bd-fd2b-463b-8aa9-a73107027934",
+      "value": "https://pkkghs.cn/d1/f2/awws=letiansw/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a77dc688-9b14-41b5-82df-e988a4fdea0a",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://pkkghs[.]cn/d1/f2/awws=letiansw/",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/harugasumi/status/2038239077863133463",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://pkkghs.cn/d1/f2/awws=letiansw/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "spec_version": "2.1",
+      "id": "domain-name--e93f5995-d9ff-4a9a-a95f-037ec46c326e",
+      "value": "zbusur.cn"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--457c4883-9e4b-425a-940c-6ee19166da06",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "DOMAIN: zbusur[.]cn",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/harugasumi/status/2038239077863133463",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'zbusur.cn']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--a5853ef7-8444-4ad7-ba38-4e6599408e1f",
+      "value": "https://zbusur.cn/d1/f2/awws=letiansw/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3f380aea-e9f0-4068-8f67-d28859a4ed94",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://zbusur[.]cn/d1/f2/awws=letiansw/",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/harugasumi/status/2038239077863133463",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://zbusur.cn/d1/f2/awws=letiansw/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "spec_version": "2.1",
+      "id": "domain-name--2b5ce1c2-3a31-43d7-89fc-e7bffe2ea50e",
+      "value": "mo1.gfireservers.in"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7153f2d2-b49a-4a6d-a601-086ee05d6e16",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "DOMAIN: mo1[.]gfireservers[.]in",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/mugu_reporter/status/2038289499147427970",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'mo1.gfireservers.in']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--fd1ef9e1-7da3-4ac6-b96a-f0992d830be7",
+      "value": "https://x.com/mugu_reporter/status/2038289499147427970"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--86dc16d8-598f-4e9f-93cf-4f48900d3e33",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://x[.]com/mugu_reporter/status/2038289499147427970",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/mugu_reporter/status/2038289499147427970",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://x.com/mugu_reporter/status/2038289499147427970']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--40d7b82f-1395-4361-a41c-c19f73ce7b8e",
+      "value": "http://mo1.gfireservers.in"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--cbc5f0b9-85dc-4558-bb89-08035b0fb7fb",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxp://mo1[.]gfireservers[.]in",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/mugu_reporter/status/2038289499147427970",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'http://mo1.gfireservers.in']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "spec_version": "2.1",
+      "id": "domain-name--b32d32a4-3632-42a2-b073-bf32a0f9ba1d",
+      "value": "akslog.com"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4f03d987-d316-4669-a3fe-6cb2965c3df4",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "DOMAIN: akslog[.]com",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/mugu_reporter/status/2038289499147427970",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'akslog.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--439c66fd-9a1a-45c7-af54-276373a2953e",
+      "value": "http://akslog.com"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--21b6a39c-a54e-4b53-85c0-2d26b6de1768",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxp://akslog[.]com",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/mugu_reporter/status/2038289499147427970",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'http://akslog.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--f424f06b-09b4-496d-800a-5153877e372b",
+      "value": "https://x.com/PhishStats/status/2038355597427376403"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d3fac820-9048-4935-a10b-16cda6fa4c52",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://x[.]com/PhishStats/status/2038355597427376403",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/PhishStats/status/2038355597427376403",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://x.com/PhishStats/status/2038355597427376403']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--1ef27029-34e9-4635-aedb-9a9f7a7aee98",
+      "value": "https://allegrolokalnie.pl-ssid55346.click/?id=Mb95fB6F2O8ImoAim78ggoKhEHnkK1"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--24183422-3b8b-4cdd-bfcb-dadcd6ab4541",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://allegrolokalnie[.]pl-ssid55346[.]click/?id=Mb95fB6F2O8ImoAim78ggoKhEHnkK1",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/PhishStats/status/2038355597427376403",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://allegrolokalnie.pl-ssid55346.click/?id=Mb95fB6F2O8ImoAim78ggoKhEHnkK1']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--3d93fbb9-a578-4b7c-a8e5-dc96cd153ec6",
+      "value": "104.21.47.198"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2fa71440-e961-43d5-9553-468d3eb2596a",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "IPV4: 104[.]21[.]47[.]198",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/PhishStats/status/2038355597427376403",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '104.21.47.198']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--9a6b8153-c0c8-4567-b962-36a07fd6a706",
+      "value": "51.195.95.80"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--395a2322-1f4a-4e81-88b1-f9c9205df15b",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "IPV4: 51[.]195[.]95[.]80",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/mugu_reporter/status/2038410456067359190",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '51.195.95.80']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--4be51520-1f13-43a7-9fc7-29ab7ed84bd9",
+      "value": "http://51.195.95.80"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d2d947ff-6a21-4e67-bb3e-474586eb3a45",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxp://51[.]195[.]95[.]80",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/mugu_reporter/status/2038410456067359190",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'http://51.195.95.80']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--04279c18-cba4-48a5-b2dc-ebb7ab1dbb42",
+      "value": "https://x.com/mugu_reporter/status/2038410456067359190"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5f99d2a9-19a2-48b6-9e65-224f44266f69",
+      "created": "2026-04-28T05:49:50.000Z",
+      "modified": "2026-04-28T05:49:50.000Z",
+      "name": "URL: hxxps://x[.]com/mugu_reporter/status/2038410456067359190",
+      "description": "Extracted from threat intel scrape — campaign: search-phishing-Tycoon2FA. Source: https://x.com/mugu_reporter/status/2038410456067359190",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://x.com/mugu_reporter/status/2038410456067359190']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T05:49:50.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "search-phishing-Tycoon2FA"
+      ]
+    }
+  ]
+}

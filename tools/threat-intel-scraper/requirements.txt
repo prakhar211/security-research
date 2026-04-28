@@ -1,0 +1,18 @@
+# Threat Intel Scraper — Python dependencies
+# Install: pip install -r requirements.txt
+
+# Core
+PyYAML>=6.0
+
+# Platform scrapers
+requests>=2.31.0        # Twitter API v2
+feedparser>=6.0.0       # Twitter (Nitter RSS), LinkedIn RSS
+telethon>=1.36.0        # Telegram MTProto client
+praw>=7.7.0             # Reddit API
+
+# No additional deps needed for:
+#   - IOC extraction (stdlib re)
+#   - MITRE mapper (stdlib)
+#   - CSV output (stdlib csv)
+#   - STIX output (stdlib json)
+#   - JSON archive (stdlib json)

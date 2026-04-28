@@ -1,0 +1,5 @@
+type,value,defanged,source,timestamp,context,first_seen,confidence
+domain,singer-bodners-bau-at-s-account.workers.dev,singer-bodners-bau-at-s-account[.]workers[.]dev,Sekoia TDR,2026-02-15,EvilTokens phishing page,2026-02-15T00:00:00Z,high
+domain,dibafef289.workers.dev,dibafef289[.]workers[.]dev,Sekoia TDR,2026-02-15,EvilTokens phishing page,2026-02-15T00:00:00Z,high
+url,/api/device/start,/api/device/start,Sekoia TDR,2026-03-01,EvilTokens device code initiation,2026-03-01T00:00:00Z,high
+url,/api/device/status/*,/api/device/status/*,Sekoia TDR,2026-03-01,EvilTokens auth polling endpoint,2026-03-01T00:00:00Z,high

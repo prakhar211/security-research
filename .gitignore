@@ -29,3 +29,9 @@ venv/
 *.key
 .env
 .env.*
+
+# Threat Intel Scraper
+tools/threat-intel-scraper/config.local.yaml
+tools/threat-intel-scraper/output/
+tools/threat-intel-scraper/*.session
+tools/threat-intel-scraper/linkedin_exports/

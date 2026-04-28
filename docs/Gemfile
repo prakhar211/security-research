@@ -1,5 +1,10 @@
 source "https://rubygems.org"
 
+# Required for Ruby >= 3.4 (removed from default gems)
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-feed"
 gem "jekyll-seo-tag"

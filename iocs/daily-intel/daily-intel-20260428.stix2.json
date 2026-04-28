@@ -1,0 +1,1531 @@
+{
+  "type": "bundle",
+  "id": "bundle--639903d0-03b3-4693-80a5-30007f90374c",
+  "objects": [
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--e1ebd534-4cb0-4ad2-98f8-b444574ca5b8",
+      "value": "https://ift.tt/QsiNKlT"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3654598d-afb8-4088-8888-d813bd917d52",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/QsiNKlT",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/ctinow/249420",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/QsiNKlT']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--b4fdab5c-5673-4b1d-924e-4f70d1839a51",
+      "value": "https://ift.tt/iYFqIE2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1045dab7-28ce-41d1-8416-9fa2fbfa0ac2",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/iYFqIE2",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/ctinow/249419",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/iYFqIE2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--c2668173-e451-42d5-a5ea-43f1057be353",
+      "value": "https://ift.tt/TpmfgUA"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6a3a3981-167b-4a80-9b4e-59cd61f6e6dd",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/TpmfgUA",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/ctinow/249419",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/TpmfgUA']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--c53b0b1f-708e-4648-8d0f-bc0352a5a6f7",
+      "value": "https://ift.tt/SGiEtXK"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8e539ad8-7929-4cf0-81b1-a3136ebdfc1f",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/SGiEtXK",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/ctinow/249418",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/SGiEtXK']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--ce1cb3e8-c00f-4fdb-a995-c6ed8e281325",
+      "value": "https://ift.tt/eglPD84"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7eac06f0-71af-4b80-837f-de69d095bb68",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/eglPD84",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/ctinow/249417",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/eglPD84']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--8e075c30-50dd-4b2a-bcf3-63fd52b93651",
+      "value": "https://ift.tt/4IcZEqz"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--449f6ac4-b786-49f2-adc6-908d2a4a6eba",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/4IcZEqz",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/ctinow/249416",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/4IcZEqz']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--d339be62-e723-40f5-9dbd-133a500ea192",
+      "value": "https://ift.tt/U3atqHI"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d3adb044-36d7-471f-a8e4-911252341852",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/U3atqHI",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/ctinow/249415",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/U3atqHI']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--78e25f39-d9b4-42d0-89c0-9efe8a029be1",
+      "value": "https://ift.tt/m9TDizX"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--061c9a1f-afd3-475a-ac4e-4c84b7f6444d",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/m9TDizX",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/ctinow/249414",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/m9TDizX']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--fc5b6109-ffc7-4e8b-a150-52eaef83034c",
+      "value": "https://ift.tt/aEP1fKn"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1d23f0d7-788b-43a9-ab99-3a59f3118b1c",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/aEP1fKn",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/ctinow/249413",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/aEP1fKn']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--7ab91afb-af91-45f8-adfa-0f78db8bfd4e",
+      "value": "https://ift.tt/K7eJkWn"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--dd7160af-c712-4929-b967-8c95ac519c5a",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/K7eJkWn",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/ctinow/249412",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/K7eJkWn']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--809e13ff-1b92-4160-9cfc-8ad90750b5da",
+      "value": "https://ift.tt/MSZpq71"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3974e94f-1fe8-420e-8d7e-e8145cfb3d35",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/MSZpq71",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/ctinow/249411",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/MSZpq71']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--dc609e77-8396-41b1-b4c8-2d624df10039",
+      "value": "https://ransom-isac.org/blog/dragonbreath-dragon-in-the-kernel/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1bd9d25f-c1d4-4b3b-9040-0200126d4045",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ransom-isac[.]org/blog/dragonbreath-dragon-in-the-kernel/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/cyberosintosint/3960",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ransom-isac.org/blog/dragonbreath-dragon-in-the-kernel/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--cc75d379-5fc6-46b1-a731-cf288f3454a3",
+      "value": "https://darkatlas.io/blog/in-depth-technical-analysis-of-vect-ransomware"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ccae7d01-2108-4df8-93d7-d307481365e3",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://darkatlas[.]io/blog/in-depth-technical-analysis-of-vect-ransomware",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/cyberosintosint/3958",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://darkatlas.io/blog/in-depth-technical-analysis-of-vect-ransomware']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--f4da2732-80cf-4997-ba81-82754c95b556",
+      "value": "https://www.cyberproof.com/blog/beyond-powershell-analyzing-the-multi-action-clickfix-variant/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ed408084-d1b4-41b7-ad02-0a0137a364c2",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]cyberproof[.]com/blog/beyond-powershell-analyzing-the-multi-action-clickfix-variant/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/cyberosintosint/3957",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.cyberproof.com/blog/beyond-powershell-analyzing-the-multi-action-clickfix-variant/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--f44d5624-c058-435d-81e0-7fddf3cd7f42",
+      "value": "https://www.360.cn/n/13004.html"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--941f5d6e-afdc-45f9-b76a-0c1ded40a36b",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]360[.]cn/n/13004.html",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/cyberosintosint/3956",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.360.cn/n/13004.html']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--0a37830b-6d7d-42b6-b50a-5e309e71f774",
+      "value": "https://www.360.cn/n/13005.html"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4dc36689-fb1a-46f5-888f-57dd448c4afa",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]360[.]cn/n/13005.html",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/cyberosintosint/3955",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.360.cn/n/13005.html']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--f4b02264-a497-4b47-9770-9943ad8a7079",
+      "value": "https://www.scmp.com/news/world/europe/article/3351502/italy-extradite-suspected-chinese-hacker-wanted-us-authorities-source?utm_source=rss_feed"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ccd6114c-1038-458e-b5b9-442b66870ed5",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]scmp[.]com/news/world/europe/article/3351502/italy-extradite-suspected-chinese-hacker-wanted-us-authorities-source?utm_source=rss_feed",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/cyberosintosint/3954",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.scmp.com/news/world/europe/article/3351502/italy-extradite-suspected-chinese-hacker-wanted-us-authorities-source?utm_source=rss_feed']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--2f1d4267-0b60-4aef-90e3-b4e3da2e3109",
+      "value": "https://securityaffairs.com/191343/hacking/critical-bug-in-crowdstrike-logscale-let-attackers-access-files.html"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8de2ac65-acc5-4742-8e58-dacb377ad9b6",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://securityaffairs[.]com/191343/hacking/critical-bug-in-crowdstrike-logscale-let-attackers-access-files.html",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/cyberosintosint/3953",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://securityaffairs.com/191343/hacking/critical-bug-in-crowdstrike-logscale-let-attackers-access-files.html']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--06e78c91-12a6-45e9-ad7c-a63c7d467546",
+      "value": "https://www.nozominetworks.com/blog/backdooring-codesys-applications-via-vulnerability-chaining"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0b87e97d-fa98-4417-835e-5cb991a530b7",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]nozominetworks[.]com/blog/backdooring-codesys-applications-via-vulnerability-chaining",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/cyberosintosint/3952",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.nozominetworks.com/blog/backdooring-codesys-applications-via-vulnerability-chaining']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--f5a5c292-fabc-4d93-a470-4c78e068df1d",
+      "value": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9e21475f-fb03-494a-8b4e-810badab668a",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://unit42[.]paloaltonetworks[.]com/monitoring-npm-supply-chain-attacks/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/cyberosintosint/3951",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--f38a86c3-54e3-49e8-9f5c-61f930425666",
+      "value": "https://www.bgr.com/2156507/hdmi-gadget-silentglass-blocks-malware-from-display/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1601228e-b378-4e89-88ae-4cd7d6f4fd2a",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]bgr[.]com/2156507/hdmi-gadget-silentglass-blocks-malware-from-display/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/cyberosintosint/3950",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.bgr.com/2156507/hdmi-gadget-silentglass-blocks-malware-from-display/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--2642f02c-7f04-42e2-a6ef-9318cf5a3067",
+      "value": "https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--570b9e90-1b20-422e-8285-6c4411d31441",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]bleepingcomputer[.]com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/BleepingComputer/24552",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--2a2e0a11-5c19-4864-85d8-3823dc17090e",
+      "value": "https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--13837480-882b-4bd3-86b1-e318ebfc91b6",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]bleepingcomputer[.]com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/BleepingComputer/24551",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--5103549e-1e59-4566-b841-121d1a04e565",
+      "value": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--459b0474-74ff-4961-b266-2d4230dba152",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]bleepingcomputer[.]com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/BleepingComputer/24550",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--163a10d8-bfce-4398-a5cf-048089d3ae4d",
+      "value": "https://www.bleepingcomputer.com/news/security/alleged-silk-typhoon-hacker-extradited-to-us-for-cyberespionage/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e385cad9-363e-4ea7-8a84-cb96732835da",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]bleepingcomputer[.]com/news/security/alleged-silk-typhoon-hacker-extradited-to-us-for-cyberespionage/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/BleepingComputer/24549",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.bleepingcomputer.com/news/security/alleged-silk-typhoon-hacker-extradited-to-us-for-cyberespionage/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--00911173-734e-4282-947a-44073eaea1c7",
+      "value": "https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4971e5a4-425e-4e2f-8512-53459cf78ff1",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]bleepingcomputer[.]com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/BleepingComputer/24548",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--000dc5a6-64f9-4ecc-a84b-eb084c88753d",
+      "value": "https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d71ff446-c36a-4b4b-abcc-edc5094c88c3",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]bleepingcomputer[.]com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/BleepingComputer/24547",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--d49ea422-60f2-432f-9e4e-f8d49716575b",
+      "value": "https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--33d1be0c-38fc-472d-bb19-018520fa27fd",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]bleepingcomputer[.]com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/BleepingComputer/24546",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--03485753-c726-4ea5-a18a-284847c5571c",
+      "value": "https://www.bleepingcomputer.com/news/security/webinar-spotting-cyberattacks-before-they-begin/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e253b305-636d-445a-b90d-189f13f94908",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]bleepingcomputer[.]com/news/security/webinar-spotting-cyberattacks-before-they-begin/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/BleepingComputer/24545",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.bleepingcomputer.com/news/security/webinar-spotting-cyberattacks-before-they-begin/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--97eab325-5363-419a-b4b2-f7c4adf6a8ea",
+      "value": "https://www.bleepingcomputer.com/news/security/medtronic-confirms-breach-after-hackers-claim-9-million-records-theft/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8b24b3b8-6165-44eb-b47b-bf09fdafa34e",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]bleepingcomputer[.]com/news/security/medtronic-confirms-breach-after-hackers-claim-9-million-records-theft/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/BleepingComputer/24544",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.bleepingcomputer.com/news/security/medtronic-confirms-breach-after-hackers-claim-9-million-records-theft/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--0466ad80-5539-4141-872a-02a6e23c1e0f",
+      "value": "https://www.bleepingcomputer.com/news/security/money-launderer-linked-to-230m-crypto-heist-gets-70-months-in-prison/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b23d3f7b-3cf5-4f56-bd02-8ba425f427dd",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]bleepingcomputer[.]com/news/security/money-launderer-linked-to-230m-crypto-heist-gets-70-months-in-prison/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/BleepingComputer/24543",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.bleepingcomputer.com/news/security/money-launderer-linked-to-230m-crypto-heist-gets-70-months-in-prison/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--f8b88aad-effa-45aa-bf71-043cdf24a909",
+      "value": "https://github.com/graysentinel-ai/DVWA-AutoInstaller"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--53c32106-967f-4f24-b147-8527db38c02c",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://github[.]com/graysentinel-ai/DVWA-AutoInstaller",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19934",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://github.com/graysentinel-ai/DVWA-AutoInstaller']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--399d35f1-56f9-4acc-a44a-872b8f3dded4",
+      "value": "https://ift.tt/lzZrwMc"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7546055b-b169-4175-8b47-b44e0911b0e1",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/lzZrwMc",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19934",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/lzZrwMc']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--fc398755-8847-4ad7-bade-00df26a628f2",
+      "value": "https://ift.tt/kgRjIU7"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ba6e9976-0d71-4e3d-bb9a-b616cb21391b",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/kgRjIU7",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19933",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/kgRjIU7']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--b26ba663-8cb0-40d9-b7c0-b4fcfc152744",
+      "value": "https://ift.tt/vKYHpJb"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--78fa2710-7e10-476e-ba70-11d7115c5132",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/vKYHpJb",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19933",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/vKYHpJb']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--32c0c41a-cc7d-48f2-b1b9-b1d6a7d28bb6",
+      "value": "https://ift.tt/UaCYcRm"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--dae86d08-a8e7-4dee-9908-5e8119e7c583",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/UaCYcRm",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19932",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/UaCYcRm']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--8fb688f4-3c40-4e57-ae7e-47193e4a4a05",
+      "value": "https://ift.tt/ExV8K5w"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a8ea55c5-cc7d-4186-8df2-6964a0731bf4",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/ExV8K5w",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19932",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/ExV8K5w']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--6dc867a4-6241-4aa7-a301-81da3cb59bba",
+      "value": "https://ift.tt/ubJWeEV"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d50765a2-5367-466a-8d86-f3099c660029",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/ubJWeEV",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19931",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/ubJWeEV']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--e4c560f1-1ef7-4b7e-9e2a-fd2b03d1b108",
+      "value": "https://ift.tt/SpflMgo"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f4e701a6-abbd-442d-89e6-fa3d48cf285d",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/SpflMgo",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19931",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/SpflMgo']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--a2b7d64d-76b8-460f-907e-3dcb3836b27b",
+      "value": "https://ift.tt/GZzD0HO"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ba444e9f-9677-457a-b2e4-ed3892d78df4",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/GZzD0HO",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19930",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/GZzD0HO']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--6a27ae54-5419-4849-9870-1be6b6d7c60f",
+      "value": "https://ift.tt/ksQDgR3"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b4b08110-7a28-4028-84c5-7660f81a4778",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/ksQDgR3",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19930",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/ksQDgR3']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--2d28d289-ca33-4d4e-a2a0-78ca41627ce6",
+      "value": "https://ift.tt/EsPHQbS"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bd58c454-9ed8-4486-a4ca-655e3a7f1a8f",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/EsPHQbS",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19929",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/EsPHQbS']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--b5cdff25-00b4-429f-b209-4aa060be4d0d",
+      "value": "https://ift.tt/t8QGbZU"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--31a14511-3e62-4c86-b3db-81f18c8a2741",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/t8QGbZU",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19929",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/t8QGbZU']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--04370d51-9918-4905-8275-1d5586eb1c19",
+      "value": "https://ift.tt/wORktKJ"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9e68ab6a-d508-43d4-a449-50629137cfd6",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/wORktKJ",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19928",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/wORktKJ']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--7d81645d-c19d-4d38-a11f-3057cefd2f1b",
+      "value": "https://ift.tt/DQ30b76"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0d5cee5f-0922-4e50-9ee5-82ab7f33a172",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/DQ30b76",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19928",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/DQ30b76']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--3cf40666-80c4-4414-8701-850c66945a5a",
+      "value": "https://ift.tt/wLtakpx"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c266ead4-36b9-4ca2-ba37-fb53e4a1dd7b",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/wLtakpx",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19927",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/wLtakpx']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--944827bf-4bcf-4336-aa61-0f216c1b09aa",
+      "value": "https://ift.tt/2nI6HKc"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a4815559-8b99-4ce7-b926-778613a1a334",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/2nI6HKc",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19927",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/2nI6HKc']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--4db9dc46-a6ad-428f-9052-704b55f3c96c",
+      "value": "https://ift.tt/cJDigpw"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--929aa671-74c5-43e8-9554-5a7d0488cc5d",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/cJDigpw",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19926",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/cJDigpw']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--f27a3734-2392-4789-8fb8-fa81f2b73b0c",
+      "value": "https://ift.tt/d2jYxKh"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--de1093df-155c-4cda-b7ba-5c7df38e1a51",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/d2jYxKh",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19926",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/d2jYxKh']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--55040b06-80ca-4e99-a95c-779ece87ce91",
+      "value": "https://ift.tt/q6WyiC5"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--747f9f8a-b0b4-4412-a2e6-347cc94d0294",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/q6WyiC5",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19925",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/q6WyiC5']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--f3775318-7a4b-4f69-98f5-9ada2ab0171e",
+      "value": "https://ift.tt/ybmYBtU"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bef32bbd-9e39-4fcf-b364-0eacf68d781e",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://ift[.]tt/ybmYBtU",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/blueteamalerts/19925",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://ift.tt/ybmYBtU']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--fd37dd3a-c121-4e67-81f2-b2b9cd801fd6",
+      "value": "https://pypi.org/project/rfox/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--399cbbbb-3c29-456a-a116-0191a099fd72",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://pypi[.]org/project/rfox/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/secharvester/22255",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://pypi.org/project/rfox/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--ca5483d0-4aaa-45ec-ba7c-c4aa821efe71",
+      "value": "https://www.magonia.io/research/why-a-decade-of-writing-detection-logic-makes-the-mythos-exploit-numbers-less-scary/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e9ca2489-6671-4e36-bf10-7b82af207dd0",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]magonia[.]io/research/why-a-decade-of-writing-detection-logic-makes-the-mythos-exploit-numbers-less-scary/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/secharvester/22254",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.magonia.io/research/why-a-decade-of-writing-detection-logic-makes-the-mythos-exploit-numbers-less-scary/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--f50b73f4-0888-4a34-aa27-368787a62d11",
+      "value": "https://github.com/markoglasgow/gemma_crackme_tutorial"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--754d6129-5d71-4290-b1fa-46ffc556cc46",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://github[.]com/markoglasgow/gemma_crackme_tutorial",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/secharvester/22253",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://github.com/markoglasgow/gemma_crackme_tutorial']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--0044018c-fb5e-4674-8adc-24ceec0c81cc",
+      "value": "https://www.infostealers.com/article/inside-the-coinbase-cartel-how-infostealer-credentials-fueled-a-100-company-ransomware-spree/"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f77f3477-c611-463f-97cc-b46f7b841dfa",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]infostealers[.]com/article/inside-the-coinbase-cartel-how-infostealer-credentials-fueled-a-100-company-ransomware-spree/",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/secharvester/22252",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.infostealers.com/article/inside-the-coinbase-cartel-how-infostealer-credentials-fueled-a-100-company-ransomware-spree/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--ae76b690-1aa4-46ae-b448-8f8a63b4113c",
+      "value": "https://arxiv.org/abs/2604.00702"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b01eef78-9eff-4e70-b0fb-96a9197768fc",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://arxiv[.]org/abs/2604.00702",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/secharvester/22251",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://arxiv.org/abs/2604.00702']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--f86d72bc-dd44-4b24-b501-479ef44f9a59",
+      "value": "https://www.nbcnews.com/tech/security/ai-making-easy-government-spy-lawmakers-are-worried-rcna341499"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8d8364d9-838f-44dd-ad2f-d9d0e22f3a32",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]nbcnews[.]com/tech/security/ai-making-easy-government-spy-lawmakers-are-worried-rcna341499",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/secharvester/22250",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.nbcnews.com/tech/security/ai-making-easy-government-spy-lawmakers-are-worried-rcna341499']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--647d8fe8-9243-4e34-a9df-a66c65eee1c3",
+      "value": "https://threatroad.substack.com/p/the-soc-analyst-role-is-changing"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4e719d29-d414-4efb-b9a8-72c84d279a1f",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://threatroad[.]substack[.]com/p/the-soc-analyst-role-is-changing",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/secharvester/22249",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://threatroad.substack.com/p/the-soc-analyst-role-is-changing']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--b6953a1c-1768-41f0-b7ca-ea45e28765d8",
+      "value": "https://github.com/weirdmachine64/SharkMCP"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--df015d68-f01d-4b98-917c-4a7018f3ce04",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://github[.]com/weirdmachine64/SharkMCP",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/secharvester/22248",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://github.com/weirdmachine64/SharkMCP']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--56061d90-5ce2-4133-9b4a-e6839f0d8bdf",
+      "value": "https://fenrisk.com/mcpwned-burp-suite-extension-mcp-servers"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fe8ac0ca-5103-4e3b-aa84-a1d58937b6c8",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://fenrisk[.]com/mcpwned-burp-suite-extension-mcp-servers",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/secharvester/22247",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://fenrisk.com/mcpwned-burp-suite-extension-mcp-servers']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    },
+    {
+      "type": "url",
+      "spec_version": "2.1",
+      "id": "url--cede2896-018f-47c6-bca9-f5e0b587db89",
+      "value": "https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c065a507-fc21-40c8-868a-acc66620f377",
+      "created": "2026-04-28T04:58:27.000Z",
+      "modified": "2026-04-28T04:58:27.000Z",
+      "name": "URL: hxxps://www[.]aisi[.]gov[.]uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities",
+      "description": "Extracted from threat intel scrape — campaign: daily-intel. Source: https://t.me/secharvester/22246",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities']",
+      "pattern_type": "stix",
+      "valid_from": "2026-04-28T04:58:27.000Z",
+      "labels": [
+        "threat-intel-scraper",
+        "daily-intel"
+      ]
+    }
+  ]
+}
