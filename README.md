@@ -1,6 +1,6 @@
 # Security Research & Detection Engineering
 
-Independent security research, incident case studies, detection-as-code, and open-source security tooling by **Prakhar Gupta** — Senior Cloud Security Analyst / Shift Lead, Coralogix SRC MDR.
+Independent security research, incident case studies, detection-as-code, and open-source security tooling by **Prakhar Gupta** 
 
 > Blog site: published from `docs/` via GitHub Pages.
 
