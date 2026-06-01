@@ -191,11 +191,11 @@ The most reliable detection signal is the **temporal anomaly between an interact
 Paste this into your Sentinel / Log Analytics workspace. Tune the time window (`lookback`) to your environment.
 
 ```kusto
-// <span class="glossary-term" data-bs-toggle="tooltip" title="An OAuth 2.0 authorization-code phishing technique disclosed in late 2025 that abuses Microsoft first-party application trust to hijack Entra ID accounts without password or MFA theft.">ConsentFix</span> v3 — interactive sign-in followed by non-interactive sign-in
-// for the same user against <span class="glossary-term" data-bs-toggle="tooltip" title="Microsoft&#39;s first-party command-line interface for Azure. Pre-consented in every Entra tenant with the client ID 04b07795-8ddb-461a-bbee-02f9e1bf7b46.">Azure CLI</span> from a different IP within 10 minutes.
-// <span class="glossary-term" data-bs-toggle="tooltip" title="Microsoft&#39;s first-party command-line interface for Azure. Pre-consented in every Entra tenant with the client ID 04b07795-8ddb-461a-bbee-02f9e1bf7b46.">Azure CLI</span> first-party client_id: 04b07795-8ddb-461a-bbee-02f9e1bf7b46
+// ConsentFix v3 — interactive sign-in followed by non-interactive sign-in
+// for the same user against Azure CLI from a different IP within 10 minutes.
+// Azure CLI first-party client_id: 04b07795-8ddb-461a-bbee-02f9e1bf7b46
 let lookback = 1d;
-let suspect_app = "04b07795-8ddb-461a-bbee-02f9e1bf7b46"; // <span class="glossary-term" data-bs-toggle="tooltip" title="Microsoft&#39;s first-party command-line interface for Azure. Pre-consented in every Entra tenant with the client ID 04b07795-8ddb-461a-bbee-02f9e1bf7b46.">Azure CLI</span>
+let suspect_app = "04b07795-8ddb-461a-bbee-02f9e1bf7b46"; // Azure CLI
 let interactive =
     SigninLogs
     | where TimeGenerated > ago(lookback)
